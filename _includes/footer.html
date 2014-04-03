@@ -4,17 +4,6 @@
 
             <div id="sidebar">
                 
-                {% if page.title == 'Hypermedia' %}
-    
-                {% else %}
-                    <div class="widget widget_recent_entries"> 
-                        <center>      
-                             <p style="font-size: 16px;"><strong>Voice</strong></p>
-                            <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-hypermedia.png" width="125" />
-                        </center>
-                    </div>
-                {% endif %}
-                
                  <div class="widget widget_recent_entries">  
                      <h3>Winning in the API Economy</h3>
                      <center>
@@ -29,7 +18,18 @@
                         </tbody>
                         </table>                     
                      </center>
-                 </div>                               
+                 </div>                  
+                
+                {% if page.title == 'Hypermedia' %}
+    
+                {% else %}
+                    <div class="widget widget_recent_entries"> 
+                        <center>      
+                             <p style="font-size: 16px;"><strong>Voice</strong></p>
+                            <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-hypermedia.png" width="125" />
+                        </center>
+                    </div>
+                {% endif %}                             
 
                  <div class="widget widget_recent_entries">
                      <h3>API Evangelist Network</h3> 
@@ -74,7 +74,7 @@
                 <h3>Latest Blog Posts</h3>
                 <ul>                
                 
-                    {% for post in site.posts limit:10 %}
+                    {% for post in site.posts limit:25 %}
                         <li><a href="{{ post.url }}">{{ post.title }}</a></li>    
                     {% endfor %}   
                                 
@@ -97,12 +97,12 @@
     
             <p><a href="http://kinlane.com/about/">About</a></p>    
             <p>|</p>
-            <p><a href="http://theapistack.com">API Stack</a></p>   
-            <p>|</p>
             <p><a href="http://apievangelist.com">API Evangelist</a></p>        
             <p>|</p>
             <p><a href="http://apivoice.com">API Voice</a></p>
             <p>|</p>
+            <p><a href="http://apicommons.com">API Commons</a></p>
+            <p>|</p>            
             <p><a href="http://kinlane.com/contact/">Contact</a></p>                
         
         </div>
