@@ -6,49 +6,9 @@ title: Hypermedia
 <h1>Hypermedia</h1>
 <p><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-hypermedia.png" width="200" align="right" style="padding: 15px;" /></p>
 <p>Hypermedia, also known as HATEOAS or Hypermedia the Engine of Application State, as defined by Wikipedia is "a constraint of the REST application architecture that distinguishes it from most other network application architectures. The principle is that a client interacts with a network application entirely through hypermedia provided dynamically by application servers. A REST client needs no prior knowledge about how to interact with any particular application or server beyond a generic understanding of hypermedia."</p>
-<p>Hypermedia discussion have been going on for some time now, but in the last year we've seen Hypermedia go from what is seen as academic dicussions to proven implmentations in the wild, showing the benefits of other REST implementations.</p>
+<p>Hypermedia discussion have been going on for some time now, but in the last two year we've seen Hypermedia go from what is seen as academic dicussions to proven implmentations in the wild, showing the benefits of other REST implementations.</p>
 <p>While there are still a limited amount of tooling out there to support Hypermedia API implementations, and there are no companies that exclusively target the area, the increase in the number of Hypermedia APIs warrants taking a closer look a the space. As I do with other areas, as I work to understand different approaches I want to help tell stories about hypermedia APIs that the mainstream can relate with.</p>
-
-<script type="text/javascript">
-
-function listTools(tag,listing)
-    {
-        
-    $.getJSON('data/tools.json', function(data) {
-
-         $.each(data['tools'], function(key, val) {
-             
-            thesetags = val['tags'];
-            
-            if(thesetags.indexOf(tag) !=-1) {           
-                var template = $('#toolListingTemplate').html();
-                var html = Mustache.to_html(template, val);
-                $('#'+listing).append(html);   
-                }     
-                                  
-            });
-        });
-        
-    } 
-</script>
-
-<!-- Begin List API Design companies--->
-{% raw  %}
-<script id="toolListingTemplate" type="text/template">       
-    <li style="list-style: none; padding: 30px; border: 0px solid #000;">
-        <a href="tools-detail.html?id={{id}}"><img src="{{logo}}" width="{{width}}" align="left" style="padding: 15px;" /></a>
-        <a href="tools-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{details}}... <a href="tools-detail.html?id={{id}}">details</a>.
-    </li>                                                                                               
-</script>
-{% endraw %}
-
-<div style="padding-left: 10px; padding-right: 10px; width:550px;">
-     <ul id="HypermediaToolListing" style="padding-left: 30px;"></ul>
-</div>  
-<script type="text/javascript">
-    listTools('Hypermedia','HypermediaToolListing');
-</script>
-
+<p>As part of this reserch I'm aggregating companies, and individuals who are doing interesting things in the space, as well as the tools, services, and other stories around their work. The more hypermedia is discussed in the space, the more you'll see this research grow.</p>
 <hr />
 <!-- 3scale -->
 <p align="center">
