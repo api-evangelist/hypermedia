@@ -9,7 +9,22 @@ title: Hypermedia
 <p>Hypermedia discussion have been going on for some time now, but in the last two year we've seen Hypermedia go from what is seen as academic dicussions to proven implmentations in the wild, showing the benefits of other REST implementations.</p>
 <p>While there are still a limited amount of tooling out there to support Hypermedia API implementations, and there are no companies that exclusively target the area, the increase in the number of Hypermedia APIs warrants taking a closer look a the space. As I do with other areas, as I work to understand different approaches I want to help tell stories about hypermedia APIs that the mainstream can relate with.</p>
 <p>As part of this reserch I'm aggregating companies, and individuals who are doing interesting things in the space, as well as the tools, services, and other stories around their work. The more hypermedia is discussed in the space, the more you'll see this research grow.</p>
-<hr />
+
+<hr />                
+   
+<h2>Updates</h2>            
+{% for post in site.posts limit:2 %}
+<div class="post">
+    
+    <p><a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><h4><strong>{{ post.title }}</strong></h4></a> (<i><strong><span class="small">Posted on</span> <span class="post-date">{{ post.date | date:"%m-%d-%Y" }}</span></strong></i>)
+    <p><a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}"><img src="{{ post.image }}" width="175" align="left" style="padding: 15px;" /></a></p>
+    <p>{{ post.content | strip_html | truncatewords: 100 }}...<a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000; font-weight: bold;">read more</a>.</p>
+    <br />
+    <hr />     
+   
+</div> 
+{% endfor %} 
+
 <!-- 3scale -->
 <p align="center">
     <a href="http://bit.ly/13esk6Q" target="_blank" title="APIs From 3Scale">
