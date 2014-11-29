@@ -2,9 +2,10 @@
 
             </div><!-- /#main -->
 
-            <div id="sidebar">
-            	
-                 <div class="widget widget_recent_entries">  
+            <div id="sidebar">  
+                
+                <div class="widget widget_recent_entries">
+                	  
                      <h3>Winning in the API Economy</h3>
                      <center>
                         <table width="250" align="center">
@@ -18,21 +19,8 @@
                         </tbody>
                         </table>                     
                      </center>
-                 </div>           
-                 
-                 <div class="widget widget_recent_entries">  
-                     <h3>API Commons</h3>
-                     <center>
-                        <table width="250" align="center">
-                        <tbody>
-                            <tr>
-                                <td align="center"><a href="http://bit.ly/1e27KIc" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/api-commons/api-commons-icon.png" width="150" style="border: 0px solid #000;" /></a></td>
-                            </tr>
-                        </tbody>
-                        </table>                     
-                     </center>
-                 </div> 
-                
+                 </div>                          
+
                  <div class="widget widget_recent_entries">  
                      
                     <!--- Begin Partners --->
@@ -71,7 +59,7 @@
                 <h3>Latest Blog Posts</h3>
                 <ul>                
                 
-                    {% for post in site.posts limit:25 %}
+                    {% for post in site.posts limit:10 %}
                         <li><a href="{{ post.url }}">{{ post.title }}</a></li>    
                     {% endfor %}   
                                 
