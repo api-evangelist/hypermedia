@@ -1,5 +1,9 @@
-title:        {"Hypermedia APIs"}
+title:        Hypermedia APIs
 url:          http://hypermedia.apievangelist.com
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-hypermedia.png
+logo_width:   80
+logo_bottom_padding: 10
+
 version:      1.1.1
 author:
   name:       'Kin Lane'
@@ -8,15 +12,96 @@ markdown:     rdiscount
 permalink:    pretty
 pygments:     true
 
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-paginate: 50
+paginate: 150
 paginate_path: "/news/page:num"
-
-production_url : http://hypermedia.apievangelist.com
-
-BASE_PATH : http://hypermedia.apievangelist.com
 
 categories_path : /categories.html
 tags_path : /tags.html
+
+# Masthead title
+masthead_link: http://hypermedia.apievangelist.com
+masthead_font_size: 75
+masthead_title: '{"Hypermedia APIs"}'
+
+# Feature
+feature_title: API Design Providers Guide
+feature_link: http://apis.how/xzca4kr2wb
+feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/3scale/report-image-api-design.png
+feature_image_width: 45
+
+# Project
+project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-hypermedia.png
+project_summary: This is my research into hypermedia design principles, as applied to web APIs. I am considering merging this with my API design research, but for now I will leave separate, to help bring attention to the fast moving concept. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling in this research report.
+
+# Navigation
+navigation:
+  - label1: Home
+    link1: /index.html
+    size1: 80
+    extend: 0
+    label2:
+    link2:
+    size2: 0
+    padding: 0
+    decorate: 0
+  - label1: News
+    link1: /news/
+    size1: 80
+    extend: 1
+    label2: RSS
+    link2: /blog.xml
+    size2: 60
+    padding: 2
+    decorate: 0
+  - label1: APIs
+    link1: /apis.html
+    size1: 80
+    extend: 1
+    label2:
+    link2:
+    size2: 60
+    padding: 0
+    decorate: 0
+  - label1: Tools
+    link1: /tools.html
+    size1: 80
+    extend: 1
+    label2: JSON
+    link2: /data/tools.json
+    size2: 60
+    padding: 0
+    decorate: 0
+  - label1: Return to API Evangelist
+    link1: http://apievangelist.com
+    size1: 80
+    extend: 0
+    label2:
+    link2:
+    size2: 10
+    padding: 20
+    decorate: 1
+
+# Footer Navigation
+footernavigation:
+  - label: API 100K View
+    link: http://apievangelist.com
+  - label: News
+    link: /news/
+  - label: Partners
+    link: http://apievangelist.com/partners/
+  - label: APIs.json
+    link: http://apisjson.org
+  - label: About Kin Lane
+    link: http://kinlane.com
+  - label: Branding Guidelines
+    link: http://apievangelist.com/branding-guidelines.html
+  - label: Contact
+    link: http://kinlane.com/contacts/
+
+# sponsors
+sponsors_margin_top: 15
+sponsors_padding_top: 10
+sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
