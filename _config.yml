@@ -59,12 +59,21 @@ navigation:
   - label1: APIs
     link1: /apis.html
     size1: 80
-    extend: 1
+    extend: 0
     label2:
     link2:
     size2: 60
     padding: 0
     decorate: 0
+  - label1: Building Blocks
+    link1: /building-blocks.html
+    size1: 80
+    extend: 1
+    label2: JSON
+    link2: /data/buildingblocks.json
+    size2: 60
+    padding: 0
+    decorate: 0    
   - label1: Tools
     link1: /tools.html
     size1: 80
