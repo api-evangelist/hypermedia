@@ -5,7 +5,7 @@
 		"name": "Target Identification",
 		"about": "Links establish connections across resources, and thus need ways to identify the linked resources. ",
 		"category_id": "198",
-		"category": "Hypermedia Concepts",
+		"category": "Core Concepts",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -16,7 +16,7 @@
 		"name": "Link Relation Type",
 		"about": "Link relations are one way of typing links, allowing them to be annotated with information about why a client might want to follow a given link.",
 		"category_id": "198",
-		"category": "Hypermedia Concepts",
+		"category": "Core Concepts",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -27,7 +27,7 @@
 		"name": "Human-Readable Label(s)",
 		"about": "If a link is used in human-facing applications, then it often can be helpful to include human-readable labels. ",
 		"category_id": "198",
-		"category": "Hypermedia Concepts",
+		"category": "Core Concepts",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -38,7 +38,7 @@
 		"name": "Target Resource Hints",
 		"about": "A link itself should represent all the information that a client needs to decide whether it should or should not traverse the link, based on client goals. ",
 		"category_id": "198",
-		"category": "Hypermedia Concepts",
+		"category": "Core Concepts",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -49,7 +49,7 @@
 		"name": "Traversal Hints",
 		"about": "A link communicates to a client one possible hypermedia navigation, and the client might choose to follow a link based on client goals. ",
 		"category_id": "198",
-		"category": "Hypermedia Concepts",
+		"category": "Core Concepts",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -60,7 +60,7 @@
 		"name": "Topology",
 		"about": "While links usually are thought of to have two participating resources or subresources (the source and the target), link models can also support other topologies. ",
 		"category_id": "198",
-		"category": "Hypermedia Concepts",
+		"category": "Core Concepts",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -71,7 +71,7 @@
 		"name": "Directionality",
 		"about": "Directionality is the question of how a link is directed when it is not symmetric. ",
 		"category_id": "198",
-		"category": "Hypermedia Concepts",
+		"category": "Core Concepts",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -82,7 +82,7 @@
 		"name": "Resource Role",
 		"about": "In simple link structures, the roles of resources are implicit in the definition and the direction of the link. ",
 		"category_id": "198",
-		"category": "Hypermedia Concepts",
+		"category": "Core Concepts",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
