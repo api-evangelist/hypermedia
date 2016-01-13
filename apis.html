@@ -1,18 +1,13 @@
 ---
 layout: page
-title: APIs
+title: APIs Putting Hypermedia To Work
 ---
-
-<ul class="toolbar">
-    <li>{"<a href="http://hypermedia.apievangelist.com/data/companies.json" title="JSON" target="_blank">JSON</a>"}</li>
-    <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
-</ul>
 
 <h1 class="title">APIs Putting Hypermedia To Work</h1>
 <p>These are some of the APIs that I have come across in the wild, that actually are using hypermedia in their API designs. If there is an API you'd like to see here, and uses hyperemdia, you can add a Github issues, and I'll look into it, or if you are feeling adventurous, you can fork and submit a pull request for this research.</p>
 
 {% raw  %}
-<script id="companyListingTemplate" type="text/template">       
+<script id="companyListingTemplate" type="text/template">
     <tr>
         <td align="left" valign="top">
             <a href="" id="home-logo-link-{{id}}"><img src="{{logo}}" width="{{logo_width}}" align="left" style="padding: 15px;" /></a>
@@ -20,27 +15,27 @@ title: APIs
         </td>
     </tr>
     <tr>
-        <td align="center" valign="top">   
-        	           
+        <td align="center" valign="top">
+
 	        <a href="index.html" target="_blank" title="Website" id="home-icon-{{id}}"><img id="home-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" style="display: inline; margin: 10px; width: 35px;" /></a>
-	
+
 	        <a href="index.html" target="_blank" title="Blog" id="blog-icon-{{id}}"><img id="blog-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" style="display: inline; margin: 10px; width: 35px;" /></a>
-	   
+
 	        <a href="index.html" target="_blank" title="Blog RSS" id="blogrss-icon-{{id}}"><img id="blogrss-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" style="display: inline; margin: 10px; width: 36px;" /></a>
-	   
+
 	        <a href="index.html" target="_blank" title="Twitter" id="twitter-icon-{{id}}"><img id="twitter-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" style="display: inline; margin: 10px; width: 45px;" /></a>
-	
-	        <a href="index.html" target="_blank" title="Githube" id="github-icon-{{id}}"><img id="github-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" style="display: inline; margin: 10px; width: 50px;" /></a>            
+
+	        <a href="index.html" target="_blank" title="Githube" id="github-icon-{{id}}"><img id="github-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" style="display: inline; margin: 10px; width: 50px;" /></a>
 			<hr />
 		</td>
-	</tr>                                                                                                     
+	</tr>
 </script>
 {% endraw %}
 
 <div>
      <p align="center"><hr /></p>
      <table id="companyListing" style="padding-left: 35px;" width="90%" cellpadding="1" cellspacing="1"></table>
-</div>  
+</div>
 
 <script type="text/javascript">
 function listCompanies()
@@ -50,30 +45,30 @@ function listCompanies()
          $.each(data['company'], function(key, val) {
             var template = $('#companyListingTemplate').html();
             var html = Mustache.to_html(template, val);
-            $('#companyListing').append(html);     
-                                               
+            $('#companyListing').append(html);
+
             id = val['id'];
             website = val['website'];
             //alert(website);
-            if(website.length>0){ document.getElementById("home-logo-link-"+id).href=website; }               
-            if(website.length>0){ document.getElementById("home-name-link-"+id).href=website; }              
-            if(website.length>0){ document.getElementById("home-icon-"+id).href=website; } else { document.getElementById("home-icon-img-"+id).style.display='none'; }              
-                                    
+            if(website.length>0){ document.getElementById("home-logo-link-"+id).href=website; }
+            if(website.length>0){ document.getElementById("home-name-link-"+id).href=website; }
+            if(website.length>0){ document.getElementById("home-icon-"+id).href=website; } else { document.getElementById("home-icon-img-"+id).style.display='none'; }
+
             blog = val['blog'];
             if(blog.length>0){ document.getElementById("blog-icon-"+id).href=blog; } else { document.getElementById("blog-icon-img-"+id).style.display='none'; }
-                            
+
             blogrss = val['blogrss'];
             if(blog.length>0){ document.getElementById("blogrss-icon-"+id).href=blogrss; } else { document.getElementById("blogrss-icon-img-"+id).style.display='none'; }
-            
+
             twitter = val['twitter'];
             if(twitter.length>0){ document.getElementById("twitter-icon-"+id).href=twitter; } else { document.getElementById("twitter-icon-img-"+id).style.display='none'; }
-            
+
             github = val['github'];
             if(github.length>0){ document.getElementById("github-icon-"+id).href=github; } else { document.getElementById("github-icon-img-"+id).style.display='none'; }
-                           
-                                 
+
+
             });
         });
-    } 
+    }
 listCompanies();
 </script>
