@@ -14,7 +14,7 @@ permalink: /:categories/:year/:month/:day/:title/
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 paginate: 150
-paginate_path: "/news/page:num"
+paginate_path: "/blog/page:num"
 
 categories_path : /categories.html
 tags_path : /tags.html
@@ -54,7 +54,7 @@ navigation:
     size2: 60
     padding: 2
     decorate: 0
-  - label1: APIs
+  - label1: Hypermedia APIs
     link1: /apis/
     size1: 80
     extend: 0
@@ -63,12 +63,12 @@ navigation:
     size2: 60
     padding: 0
     decorate: 0
-  - label1: Building Blocks
-    link1: /building-blocks/
+  - label1: Tools
+    link1: /tools/
     size1: 80
-    extend: 1
-    label2: JSON
-    link2: /data/buildingblocks.json
+    extend: 0
+    label2:
+    link2:
     size2: 60
     padding: 0
     decorate: 0
@@ -100,6 +100,26 @@ footernavigation:
     link: http://kinlane.com/contacts/
 
 # sponsors
-sponsors_margin_top: 15
-sponsors_padding_top: 10
+sponsors_margin_top: 3
+sponsors_padding_top: 3
 sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
+
+# support
+support_title: Support My API Design Research
+support_header: I depend on the support of my partners to fund my work as an independent analysts. I have been monitoring the world of APIs since July of 2010 through the support of my partners, and a handful of writing or consulting projects along the way. If you find what I do valuable, please help support me by purchasing my guides, giving below, or if there are specific aspects of API design you'd like me to focus on, let me know, and maybe we can find a way to provide you with what you are looking for.
+support_footer: I pay my bills by consulting on API projects, and writing white papers and guides. You can find much of my research freely available across my website(s), but if you want to support my work, and get a single snapshot of it at any point in time, I recommend <a href="/guide/">purchasing my API design guide</a>. Anyone who gives $250.00 or more a month, will automatically get access to all of my content via a shared Dropbox, Google Drive, or Github repository. Thank you for your support, and feel free to ping me directly if you have more questions.
+
+# Footer
+footer_title: API Evangelist
+footer_link: http://apievangelist.com
+footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+footer_image_width: 60
+
+# curated
+curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API design--these are the links I am including in my research.
+
+# organizations
+org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with API design. These are the organizations I'm currently including in my API design research.
+
+# tools
+tools_desc:
