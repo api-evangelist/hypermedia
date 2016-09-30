@@ -1,5 +1,45 @@
 [
 	{
+		"curated_id": "acLS9123O52tDGrjUPznoi7bECi8lnkvEN0C8K279Zjh7cN5QUnec5Y6hXtxp0FYECKX3A19Ykhdnwh477fPA8zg117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "RESTful and HATEOAS Services Revisited",
+		"url": "https://dzone.com/articles/restful-and-hateoas-services-nbsprevisited",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "WD116UB116ia1160A123g8123pNBLW20I0mbXISorSMufYT50lnM116Hd6aNFXnifYfrXGjtJJW35oKEulEjeUQr05QQ35C05A117117",
+		"item_date": "2016-08-27 15:12:55",
+		"title": "Twelve Patterns for Hypermedia Service Architecture",
+		"url": "http://amundsen.com/talks/2016-04-sacon-patterns/index.html",
+		"domain": "amundsen.com",
+		"image": ""
+	},
+	{
+		"curated_id": "fRbBPzwpj5JfXcNiqf0FoBmPgkAHshHD6dQRTLd1HU6IPR0pIdJ3ftica1231166yVWZYvXnrt9E3uIEVJphWv3AxA117117",
+		"item_date": "2016-08-22 17:34:32",
+		"title": "Twitter",
+		"url": "https://twitter.com/kinlane/status/767877787185188864",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Uvfb9daldzb5YNS56OOSBeZ0CBvQcwE116myo116npNjd5AU1a4wFpgvoNrUnixbdPvYfCt4dCpQEB6ecMYZUGJ0fg117117",
+		"item_date": "2016-08-10 00:00:00",
+		"title": "API Maps Hypermedia API Design",
+		"url": "http://dret.typepad.com/dretblog/2016/08/api-maps-hypermedia-api-design.html",
+		"domain": "dret.typepad.com",
+		"image": ""
+	},
+	{
+		"curated_id": "3l1mnogaBQA6OOSu0mvDQpvlQPVUF5Dpl9ZvvNTwsRi8JpqSAwQYodi6ukZ2NxYocv7c48FpqDVrv65dCY7Pjg117117",
+		"item_date": "2016-08-06 00:00:00",
+		"title": "Whypermedia Why use Hypermedia",
+		"url": "http://dret.typepad.com/dretblog/2016/08/whypermedia-why-use-hypermedia.html",
+		"domain": "dret.typepad.com",
+		"image": ""
+	},
+	{
 		"curated_id": "cG1165az37ZpwLpLkWHSYNUBpORnXlZCPF8VgWyxUxMvI3Yj8xSNlWJk6qqq123Ch56fQo2EFUF9oJEPUhkUMxUPsw117117",
 		"item_date": "2016-06-14 00:00:00",
 		"title": "Presentation Hypermedia Web API as a Network of Data",
@@ -651,7 +691,7 @@
 		"curated_id": "2vcoeeZvWka116A55tk8YcovzSvbgPRCZbSt8OPlibjOUtuHOr123QREWIaRxjFPqTelPpiCGDNO3WhrZYXqX1g9kw117117",
 		"item_date": "2013-02-07 18:24:49",
 		"title": "Designing and Implementing Hypermedia APIs",
-		"url": "http://www.infoq.com/articles/hypermedia-api-tutorial-part-one",
+		"url": "https://www.infoq.com/articles/hypermedia-api-tutorial-part-one",
 		"domain": "www.infoq.com",
 		"image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/9352_api500_com.png"
 	}
