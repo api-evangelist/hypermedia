@@ -1,0 +1,698 @@
+[
+  {
+    "curated_id": "f1uVoS9dpnsnG3KFY116kd3ATsQt47lGKDC116px0vDen7HFbybYWtu9kCk4kSYOoCWMcczb4G7h0aNGz1Sa1233z0Lw117117",
+    "item_date": "2016-09-26 00:00:00",
+    "title": "What about hypermedia",
+    "url": "http://www.apiful.io/intro/2016/09/27/hypermedia.html",
+    "domain": "www.apiful.io",
+    "image": ""
+  },
+  {
+    "curated_id": "acLS9123O52tDGrjUPznoi7bECi8lnkvEN0C8K279Zjh7cN5QUnec5Y6hXtxp0FYECKX3A19Ykhdnwh477fPA8zg117117",
+    "item_date": "2016-09-01 00:00:00",
+    "title": "RESTful and HATEOAS Services Revisited",
+    "url": "https://dzone.com/articles/restful-and-hateoas-services-nbsprevisited",
+    "domain": "dzone.com",
+    "image": ""
+  },
+  {
+    "curated_id": "WD116UB116ia1160A123g8123pNBLW20I0mbXISorSMufYT50lnM116Hd6aNFXnifYfrXGjtJJW35oKEulEjeUQr05QQ35C05A117117",
+    "item_date": "2016-08-27 15:12:55",
+    "title": "Twelve Patterns for Hypermedia Service Architecture",
+    "url": "http://amundsen.com/talks/2016-04-sacon-patterns/index.html",
+    "domain": "amundsen.com",
+    "image": ""
+  },
+  {
+    "curated_id": "Uvfb9daldzb5YNS56OOSBeZ0CBvQcwE116myo116npNjd5AU1a4wFpgvoNrUnixbdPvYfCt4dCpQEB6ecMYZUGJ0fg117117",
+    "item_date": "2016-08-10 00:00:00",
+    "title": "API Maps Hypermedia API Design",
+    "url": "http://dret.typepad.com/dretblog/2016/08/api-maps-hypermedia-api-design.html",
+    "domain": "dret.typepad.com",
+    "image": ""
+  },
+  {
+    "curated_id": "3l1mnogaBQA6OOSu0mvDQpvlQPVUF5Dpl9ZvvNTwsRi8JpqSAwQYodi6ukZ2NxYocv7c48FpqDVrv65dCY7Pjg117117",
+    "item_date": "2016-08-06 00:00:00",
+    "title": "Whypermedia Why use Hypermedia",
+    "url": "http://dret.typepad.com/dretblog/2016/08/whypermedia-why-use-hypermedia.html",
+    "domain": "dret.typepad.com",
+    "image": ""
+  },
+  {
+    "curated_id": "cG1165az37ZpwLpLkWHSYNUBpORnXlZCPF8VgWyxUxMvI3Yj8xSNlWJk6qqq123Ch56fQo2EFUF9oJEPUhkUMxUPsw117117",
+    "item_date": "2016-06-14 00:00:00",
+    "title": "Presentation Hypermedia Web API as a Network of Data",
+    "url": "https://www.infoq.com/presentations/data-hypermedia-rest",
+    "domain": "www.infoq.com",
+    "image": ""
+  },
+  {
+    "curated_id": "uPJtse123q8R85CJRvEuyx3h8xAG4c116fNfn6VsvqLaOjjFPjPHjCDjaJ6ZmYFmS8Gmtgjt8jaZZ1166MvA1232V4FYUQ117117",
+    "item_date": "2016-05-09 00:00:00",
+    "title": "Dont Hate the HATEOAS Part Deux Springtime for HATEOAS",
+    "url": "http://www.codeproject.com/Articles/1098930/Don-t-Hate-the-HATEOAS-Part-Deux-Springtime-for-HA",
+    "domain": "www.codeproject.com",
+    "image": ""
+  },
+  {
+    "curated_id": "g0qPr9jGn5OhCDnlI5Fp4zY7ItAxtecCJz3Adr6bmYjjKsa15iYEaFxGucDznvSmtL3gSbwTqAeKQtj39LmbnA117117",
+    "item_date": "2016-05-03 15:15:22",
+    "title": "Thinking About An API Proxy To Add Link Header To Each API Response",
+    "url": "http://apievangelist.com/2016/05/02/thinking-about-an-api-proxy-to-add-link-header-to-each-api-response/",
+    "domain": "apievangelist.com",
+    "image": ""
+  },
+  {
+    "curated_id": "MXdwQKnCy89eom8UQS2AfqVJrobTVllI75nAQgDhQNGcvLq5qZCxBKz7fgN1164Edos123C5AH9gQz116rbXFpI76tMQ117117",
+    "item_date": "2016-05-02 12:10:55",
+    "title": "HTTP Header Awareness Using The Link Header For Pagination",
+    "url": "http://apievangelist.com/2016/05/02/http-header-awareness-using-the-link-header-for-pagination/",
+    "domain": "apievangelist.com",
+    "image": ""
+  },
+  {
+    "curated_id": "7aDzNntj0FOXRCqQEGFvSFZ7TCmOw8p2MKxFNgHnAmCbh7uFWaPIKdKR116SUr3K116XVWJ71161VwFRCEJylAPBTMbQ117117",
+    "item_date": "2016-03-08 14:01:39",
+    "title": "Darrel Miller on whether Hypermedia APIs will save the universe",
+    "url": "http://apieconomist.com/blog/darrel-miller-hypermedia-apis",
+    "domain": "apieconomist.com",
+    "image": ""
+  },
+  {
+    "curated_id": "NcXyiV8ofpcsjDX71l0dErTIrTiZyeNUu5v42SEZi123WmaZ116XAhhMbqO123r3tTCxSiKVemlb63116XAFRMh19FE116Vw117117",
+    "item_date": "2016-02-29 00:00:00",
+    "title": "Dont Hate The HATEOAS",
+    "url": "http://www.codeproject.com/Articles/1081859/Don-t-Hate-The-HATEOAS",
+    "domain": "www.codeproject.com",
+    "image": ""
+  },
+  {
+    "curated_id": "FETLlfRooTVmerrRyorbJEW0q1dL4123CoRs07Pn8CZcaUdUJHgRJteN7baI6yinq8WloIZgTAURUxB28nB123KYPQ117117",
+    "item_date": "2016-02-17 09:03:38",
+    "title": "The Ion Data Interchange Format",
+    "url": "http://ionwg.github.io/draft-ion.html",
+    "domain": "ionwg.github.io",
+    "image": ""
+  },
+  {
+    "curated_id": "TwQbOL61ZvR0GJHqiRQwhB6i9OZDHvF6ZmX6XjUt116iy2AE1CdlcI8J11640fzuTBRwWu5IYax8tDb1xubZpSU3UQ117117",
+    "item_date": "2016-02-13 00:00:00",
+    "title": "Spring Data REST  Data Meets Hypermedia and Security",
+    "url": "https://dzone.com/articles/spring-data-rest-data-meets-hypermedia-security",
+    "domain": "dzone.com",
+    "image": ""
+  },
+  {
+    "curated_id": "SkecKm116E53mxBHnd0D7PDyPG6116Y6116xKEd0N03ibICMObBX4sYgNVbgGpA3xNO0Q123EtAwjW6KTeex7OeBO9vUpg117117",
+    "item_date": "2016-01-18 00:00:00",
+    "title": "HypermediaHATEOAS Support in JAXRS 2Java EE 7",
+    "url": "https://dzone.com/articles/hypermediahateoas-support-in-jax-rs-2java-ee-7",
+    "domain": "dzone.com",
+    "image": ""
+  },
+  {
+    "curated_id": "9YCL116RKS0oVl116aeycZkK0hVGZSoQNpyiy1rk2c5KBKNjeYR5VE8WAPndmAZB5BKih123HrmrveeiSi9MT6isoiyw117117",
+    "item_date": "2016-02-02 00:00:00",
+    "title": "an online tutorial  with friends",
+    "url": "http://www.amundsen.com/blog/archives/1166",
+    "domain": "www.amundsen.com",
+    "image": ""
+  },
+  {
+    "curated_id": "sjkTG4WESrfIzHP9MuZDmvOfd123QplFrAJdxxUC6hZ9YUZF0aFMXktesx0G123V91165gkVTke2lytV9kQp1fBM0EYw117117",
+    "item_date": "2016-02-01 18:10:11",
+    "title": "sirenlint",
+    "url": "https://www.npmjs.com/package/sirenlint",
+    "domain": "www.npmjs.com",
+    "image": ""
+  },
+  {
+    "curated_id": "bH5Mnuh9I9eHcJlSnyn0fxAXfYQ96PtjN6Zwp123NQWmL4LYT2LdYg8MY7F9NfDliCGvAUsDo3p3123a1jXnszA8XQ117117",
+    "item_date": "2016-01-19 00:00:00",
+    "title": "Interview Jon Moore on Hypermedia APIs and Distributed Monotonic Clocks",
+    "url": "http://www.infoq.com/interviews/moore-apis-clocks",
+    "domain": "www.infoq.com",
+    "image": ""
+  },
+  {
+    "curated_id": "J1dlEsuEnhkLPPgCoIXTGmZnotu1ECWLue1EbVybkwcMGdN3VpQ15Tz1235RNUQQf68e12MipPQybYIYRvZHqqpw117117",
+    "item_date": "2016-01-12 16:33:08",
+    "title": "I Just Cannot Get Behind API Patents Especially When They Apply To HTTP And Hypermedia",
+    "url": "http://apievangelist.com/2016/01/12/i-just-cannot-get-behind-api-patents-especially-when-they-apply-to-http-and-hypermedia/",
+    "domain": "apievangelist.com",
+    "image": ""
+  },
+  {
+    "curated_id": "3n9O8HIOP116lSiipGGVv6v9hU1ixYfDgPYgIIKhnJa123BdacvC4VRwZBZj123mkbqqlXxqrehldv9K8G74mmviHuew117117",
+    "item_date": "2016-01-12 10:22:06",
+    "title": "Why Hypermedia Makes Sense",
+    "url": "http://clarify.io/blog/why-hypermedia-makes-sense/",
+    "domain": "clarify.io",
+    "image": ""
+  },
+  {
+    "curated_id": "PnjgiwR6Gh5hxnINP3hqV9NNxtZcJBO3w3mHoeqzmCdLnAwY6lZKH73dO4yyg648b23gFeAYMGDXjU92YWJH1w117117",
+    "item_date": "2016-01-05 09:57:21",
+    "title": "Improving Your API Conversations with Hypermedia ETags and RealTime APIs",
+    "url": "http://launchany.com/extending-your-api-conversations/",
+    "domain": "launchany.com",
+    "image": ""
+  },
+  {
+    "curated_id": "URAkQeNwbP9123ULghfhFuZaP9t116Rd9YvB123YnldY116oC123nRWMrOzOi5d95dw7dNUC2nTidwoT2bAsWd5FB7iXfWIA117117",
+    "item_date": "2016-01-05 00:00:00",
+    "title": "Improving Your API Conversations with Hypermedia ETags and RealTime APIs",
+    "url": "http://launchany.com/extending-your-api-conversations/",
+    "domain": "launchany.com",
+    "image": ""
+  },
+  {
+    "curated_id": "D8m8RrfH9ghl1eUghvGOGFhKUvG123kFgz9XCBLxqpSODuKcoQmIThY6CiNEi5YjXjvkSBmNKmzBgD5MKFUnhNOQ117117",
+    "item_date": "2015-12-07 14:10:34",
+    "title": "Going Beyond Just  JSON Data And Considering The Relationships That Exist And The Actions That Can Be Taken",
+    "url": "http://apievangelist.com/2015/12/07/going-beyond-just--json-data-and-considering-the-relationships-that-exist-and-the-actions-that-can-be-taken/",
+    "domain": "apievangelist.com",
+    "image": ""
+  },
+  {
+    "curated_id": "VrY4zUWNPZsfD116eTtre123fsePri123XUsu123i0wJ123s2zVI4T4bl4GjyKIv8tk3GNM1161163wC4OdNzJySxSyql123hUoqBA117117",
+    "item_date": "2015-11-26 16:22:51",
+    "title": "Lack of Hypermedia by Ben Ramsey",
+    "url": "https://benramsey.com/blog/2015/11/lack-of-hypermedia/",
+    "domain": "benramsey.com",
+    "image": ""
+  },
+  {
+    "curated_id": "NTYMAXAFJOU7C1160ShLtwvR67H2z8IaIXNl0e0ouuT1230Z3116z1YWbX2lOntxy4eoeGF116T7zp28vafr3TBwivrRtg117117",
+    "item_date": "2015-11-05 23:44:25",
+    "title": "Contemplating Hypermedia When My Focus Is On Experience",
+    "url": "http://apievangelist.com/2015/11/05/contemplating-hypermedia-when-my-focus-is-on-experience/",
+    "domain": "apievangelist.com",
+    "image": ""
+  },
+  {
+    "curated_id": "RQ08YbBJg2Mmu123UZjzAQ5WA8zfDqaeE8e116CalVwBYuKkjmGOZpSPitg1PzZ72TJxyJORgsyiENnzU7HgeCwdmQ117117",
+    "item_date": "2015-11-05 23:44:25",
+    "title": "Contemplating Hypermedia When My Focus Is On Experience",
+    "url": "http://apievangelist.com/2015/11/05/contemplating-hypermedia-when-my-focus-is-on-experience/",
+    "domain": "apievangelist.com",
+    "image": ""
+  },
+  {
+    "curated_id": "LjaNEZEqRZhzwTg116NItTL0XTW123tnh55My116splJrsC39S0tPKvSqbio34ShBcJayKe9ceeH5ET5jKVwpWTMt7Lw117117",
+    "item_date": "2015-09-01 05:15:20",
+    "title": "API Modeling and Design with Hypermedia",
+    "url": "http://webofmike.com/api-modeling-and-design-with-hypermedia-and-contextual-information/",
+    "domain": "webofmike.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/webofmike-comapi-modeling-and-design-with-hypermedia-and-contextual-information.png"
+  },
+  {
+    "curated_id": "WxwB2tZ0mO9aVuXJap9Mwdbj6l7hhXBQ1AxV4DOEp63SVr4MIGqaQc6NE1163SHTSeH4xXFgskMNqgWBo8rPkYgQ117117",
+    "item_date": "2015-07-09 00:00:00",
+    "title": "Design of a Hypermedia REST API Server and Consuming Client",
+    "url": "http://www.infoq.com/news/2015/07/hypermedia-rest-web-api",
+    "domain": "www.infoq.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-infoq-comnews201507hypermedia-rest-web-api.png"
+  },
+  {
+    "curated_id": "0s5mmwzhM7tkKGmQaZEz267QWrtJRzDgP5p6tiTAIryHaDIRXoHnCGhasB1qiLGfBIgOIPP5vmSlN6QkXK2U123Q117117",
+    "item_date": "2015-06-22 07:41:08",
+    "title": "The Whats and Hows of Hypermedia APIs Part 2 Hypermedia Types",
+    "url": "https://www.api2cart.com/blog/whats-hows-hypermedia-apis-part-2-hypermedia-types/",
+    "domain": "www.api2cart.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-api2cart-comblogwhats-hows-hypermedia-apis-part-2-hypermedia-types.png"
+  },
+  {
+    "curated_id": "xfOgxmErMDhngDLhor1szBvy27116pHsovhwwVD116WQuff3123uVoJhjK116wz7BNvmN123AIG116N116rAJeCDUD6dA9ix1PSg117117",
+    "item_date": "2015-06-13 10:05:15",
+    "title": "Clients Parsers Serializers and Browsers  kevinswibersiren Wiki  GitHub",
+    "url": "https://github.com/kevinswiber/siren/wiki/Clients,-Parsers,-Serializers,-and-Browsers",
+    "domain": "github.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/github-comkevinswibersirenwikiclients,-parsers,-serializers,-and-browsers.png"
+  },
+  {
+    "curated_id": "YYAEjYWGfXKB8I8TzahaN5GUlfHgo76Ch02eYG6TA0zYQHM3dUZgqxaUkdKMSk81zJWRKUeE8TsrQRwDVefXdg117117",
+    "item_date": "2015-06-04 12:22:02",
+    "title": "Storytelling and the Future of Hypermedia APIs ",
+    "url": "http://apievangelist.com/2015/06/04/storytelling-and-the-future-of-hypermedia-apis/",
+    "domain": "apievangelist.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apievangelist-com20150604storytelling-and-the-future-of-hypermedia-apis.png"
+  },
+  {
+    "curated_id": "nORGVX26EJyZg8NZ1OF7fmE123ufUUpBKBFW123mVWLkXKHGqm77L3K56517RpuTe4dOmSY33Tlh123UpOEfEGZpuzQw117117",
+    "item_date": "2015-06-05 14:33:33",
+    "title": "HyperdriveApiary Blog",
+    "url": "https://blog.apiary.io/2015/06/04/Hyperdrive",
+    "domain": "blog.apiary.io",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150604hyperdrive.png"
+  },
+  {
+    "curated_id": "3u123gHpt7UwqlPTJvvngoZKH123zqtBInCxjCcOZT79ctbdE3xEsyiIsCRGxyDSwoYwo7nEm6a2uRXTyqq86aLEgQ117117",
+    "item_date": "2015-06-04 12:22:02",
+    "title": "Storytelling and the Future of Hypermedia APIs ",
+    "url": "http://apievangelist.com/2015/06/04/storytelling-and-the-future-of-hypermedia-apis/",
+    "domain": "apievangelist.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apievangelist-com20150604storytelling-and-the-future-of-hypermedia-apis.png"
+  },
+  {
+    "curated_id": "YvIGaAIiIirflnQYn116VCNUUhenSvsO9fKdsTwdXILUlkd8XdTeDWJIWGs5O3bwDbOM8EblMHYJ8sc5ywxh9SPw117117",
+    "item_date": "2015-06-05 14:33:33",
+    "title": "HyperdriveApiary Blog",
+    "url": "http://blog.apiary.io/2015/06/04/Hyperdrive/",
+    "domain": "blog.apiary.io",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150604hyperdrive.png"
+  },
+  {
+    "curated_id": "yYxyYoDTSwlux2rC0qGjEBQgwNoGPyMk9VGNbTdKheBiXOog9y6116yuv123EmtjrC78gM116BsNcjfdMHnPYrE3FqlA117117",
+    "item_date": "2015-06-04 00:00:00",
+    "title": "Hyperdrive",
+    "url": "http://blog.apiary.io/2015/06/04/Hyperdrive/",
+    "domain": "blog.apiary.io",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150604hyperdrive.png"
+  },
+  {
+    "curated_id": "ePSw2YqE5HTjO13Ju2LArHeoRoodfUl2D8owd3gLM677SAS3EdDeAGm2B123QdzzpFs123yaYFKBt116Ww4GJ6C0E1GA117117",
+    "item_date": "2015-06-02 15:29:17",
+    "title": "A Good Example Of Hypermedia API Using The Siren Specification ",
+    "url": "http://apievangelist.com/2015/05/11/a-good-example-of-hypermedia-api-using-the-siren-specification/",
+    "domain": "apievangelist.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apievangelist-com20150511a-good-example-of-hypermedia-api-using-the-siren-specification.png"
+  },
+  {
+    "curated_id": "VlYPVG1dyrluCIRGM0lqKzu2RTk116ElV6MkCc123sdG9Sp3QaGGIWrwVbc422SdBLlW1QHk7jQuyKIInkHz2QA2HA117117",
+    "item_date": "2015-05-27 00:00:00",
+    "title": "Moving Beyond the Browser with JavaScript and Hypermedia",
+    "url": "http://blog.runscope.com/posts/moving-beyond-the-browser-with-javascript-and-hypermedia",
+    "domain": "blog.runscope.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-runscope-compostsmoving-beyond-the-browser-with-javascript-and-hypermedia.png"
+  },
+  {
+    "curated_id": "cfO0iLjCN5VnrzKTo00am0nRvohmdCdnMNdGtVf5Winz1maM3XmhiIGxJ1123HK8KIdMzZ96plqA6h7RZA8oLjMw117117",
+    "item_date": "2015-05-22 14:18:15",
+    "title": "Uniform Basis for Exchanging Representations UBER",
+    "url": "https://rawgit.com/uber-hypermedia/specification/master/uber-hypermedia.html",
+    "domain": "rawgit.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/rawgit-comuber-hypermediaspecificationmasteruber-hypermedia-html.png"
+  },
+  {
+    "curated_id": "oh2hv5cp123l6MIk0uOG123eG123Z116RkwxFdAmsC5vtZnZtc1fbqhJm1116Tb3DNAs5siLoBejAtvc6f3qU7SuZGzcQ6lw117117",
+    "item_date": "2015-05-11 16:11:31",
+    "title": "Applying A Little Hypermedia Is Helping Me Tighten Down My API Design And Tell A Better API Story ",
+    "url": "http://apievangelist.com/2015/05/11/applying-a-little-hypermedia-is-helping-me-tighten-down-my-api-design-and-tell-a-better-api-story/",
+    "domain": "apievangelist.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apievangelist-com20150511applying-a-little-hypermedia-is-helping-me-tighten-down-my-api-design-and-tell-a-better-api-story.png"
+  },
+  {
+    "curated_id": "Ki0RT56I6U1fZsgzZVYt7CcZm0s2EvjoxtvR669Krx1abIHmrjKRT3Ax1zjMX70wt116v7N6fqTsR6ybX6PtANHg117117",
+    "item_date": "2015-05-12 10:02:42",
+    "title": "mca blog  RESTFest 2015 is Sep 1719",
+    "url": "http://amundsen.com/blog/archives/1158",
+    "domain": "amundsen.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/amundsen-comblogarchives1158.png"
+  },
+  {
+    "curated_id": "1oEVeI31OC60qh00MHraXNvFL48HhyuREhEc3AyelT5iMd8gbY5BF3a1JxpcHnaWJRlhCY4swMVLCmWQbT1231Kg117117",
+    "item_date": "2015-05-10 00:00:00",
+    "title": "A Good Example Of Hypermedia API Using The Siren Specification",
+    "url": "http://apievangelist.com/2015/05/11/a-good-example-of-hypermedia-api-using-the-siren-specification",
+    "domain": "apievangelist.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apievangelist-com20150511a-good-example-of-hypermedia-api-using-the-siren-specification.png"
+  },
+  {
+    "curated_id": "VmrSfjC116Z1167BccKxVZCFIIIe116OMVCOEGJpIPUYDWLPFCcyVa0bElJEj06Mgqz5xLnruXvLmJ0Xse2E116Detru1g117117",
+    "item_date": "2015-05-10 00:00:00",
+    "title": "Applying A Little Hypermedia Is Helping Me Tighten Down My API Design And Tell A Better API Story",
+    "url": "http://apievangelist.com/2015/05/11/applying-a-little-hypermedia-is-helping-me-tighten-down-my-api-design-and-tell-a-better-api-story/",
+    "domain": "apievangelist.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apievangelist-com20150511applying-a-little-hypermedia-is-helping-me-tighten-down-my-api-design-and-tell-a-better-api-story.png"
+  },
+  {
+    "curated_id": "vAh9M9wt2H3Ms712355X0FADI0Yz123123T76zi9udgsyLLLCf6NtK906lCnr0gL2ZPKnQzROVAf8da24ylcCTkK5vsg117117",
+    "item_date": "2015-05-07 08:59:33",
+    "title": "On choosing a hypermedia type for your API  HAL JSONLD CollectionJSON SIREN Oh My",
+    "url": "https://gist.github.com/soofaloofa/9350847",
+    "domain": "gist.github.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/gist-github-comsoofaloofa9350847.png"
+  },
+  {
+    "curated_id": "vC235La5CFU1ogfyTkRlXQzkRzicshd0LtO3jV123jmo2bCVKXCzq116supS4yi1zqt27f0QHgyGi9tT6IFJvyVz5w117117",
+    "item_date": "2015-05-04 09:00:00",
+    "title": "Open Badges Technical Specification",
+    "url": "https://openbadgespec.org/",
+    "domain": "openbadgespec.org",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/openbadgespec-org.png"
+  },
+  {
+    "curated_id": "HTOehfrHo4zXc0lWx8jvlzDstu5QPg116r4EAcFdMuVq3wP6vHkyTBrwZRyIJn4LyxqzL210l123ui2uaw123k6yYdNQ117117",
+    "item_date": "2015-04-28 00:00:00",
+    "title": "Why You Shouldn039t Dismiss Hypermedia in Your API Design",
+    "url": "http://www.programmableweb.com/news/why-you-shouldnt-dismiss-hypermedia-your-api-design/elsewhere-web/2015/04/28",
+    "domain": "www.programmableweb.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-programmableweb-comnewswhy-you-shouldnt-dismiss-hypermedia-your-api-designelsewhere-web20150428.png"
+  },
+  {
+    "curated_id": "si89ewsisKXNNwBJGjPa123D2xJOoyhZCTscT8e4WYwUOICCsA0Az76123W0jH1YgcDQFXlMDneBT9W8ZkCjzW0M9g117117",
+    "item_date": "2015-04-30 00:00:00",
+    "title": "The Movement Towards Hypermedia APIs  Is it Happening",
+    "url": "https://blog.akana.com/hypermedia-apis/",
+    "domain": "blog.akana.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-akana-comhypermedia-apis.png"
+  },
+  {
+    "curated_id": "TsOGFZ7xLrotIydzHL70zwtCCHV1MS2zj2wkDyOCeEK6QX7yX123pgBPY3PVO2j5IjS4joK8bCvaOlWKZ9UTbd2A117117",
+    "item_date": "2015-04-30 00:23:57",
+    "title": "Hypermedia dont bother",
+    "url": "http://www.ebpml.org/blog2/index.php/2015/04/30/hypermedia-don-t-bother",
+    "domain": "www.ebpml.org",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-ebpml-orgblog2index-php20150430hypermedia-don-t-bother.png"
+  },
+  {
+    "curated_id": "EkNwX9g76FY5K2wa5MBXH6at7m4u1PKXPhgcTpeRuYpzFSuNERWBGFHO1t3FcJY97MoJZXxNG123PnED8BCHa4sg117117",
+    "item_date": "2015-04-29 03:26:01",
+    "title": "Overview of JSON Hypermedia Link Formats  Articles  dracobluenet",
+    "url": "http://dracoblue.net/dev/overview-of-json-hypermedia-link-formats/",
+    "domain": "dracoblue.net",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/dracoblue-netdevoverview-of-json-hypermedia-link-formats.png"
+  },
+  {
+    "curated_id": "LFdsWBYrp123SGhsl4T9fDVKO99QujBFJt116WmKmDFne6OiNrGpRh5WvmS3116Em98vQDibByddGdg627PSEypCcL8w117117",
+    "item_date": "2015-04-27 15:46:24",
+    "title": "How The Guardian is Approaching Hypermedia Based API Infrastructure",
+    "url": "http://www.programmableweb.com/news/how-guardian-approaching-hypermedia-based-api-infrastructure/2015/04/27",
+    "domain": "www.programmableweb.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-programmableweb-comnewshow-guardian-approaching-hypermedia-based-api-infrastructure20150427.png"
+  },
+  {
+    "curated_id": "lmJsfTlZYCUhKGxBrXntnDSjtonMnxzL8aI8LmkvLoiyUyVrngVXg4bbwtN9nTGzJ7uuulXUaZXu7pBaYiC116123g117117",
+    "item_date": "2015-03-15 00:00:00",
+    "title": "Hypermedia API maturity model  Part II  The missing links",
+    "url": "http://apihandyman.io/hypermedia-api-maturity-model-part-ii-the-missing-links/",
+    "domain": "apihandyman.io",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apihandyman-iohypermedia-api-maturity-model-part-ii-the-missing-links.png"
+  },
+  {
+    "curated_id": "SGxg3FaqrxaoCsD784wjpv33ReYeYOIk9TZomnnavhOA7YV8Ly4JFa9w3YES3Ab7znmreWhf6BBoIrEoH116946A117117",
+    "item_date": "2015-03-11 00:00:00",
+    "title": "How to Use Hypermedia APIs to Deliver HTML With Adaptive Web Design",
+    "url": "http://nordicapis.com/html-hypermedia-apis-and-adaptive-web-design/",
+    "domain": "nordicapis.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/nordicapis-comhtml-hypermedia-apis-and-adaptive-web-design.png"
+  },
+  {
+    "curated_id": "W7plbTegW123pnqZz9YlwT158b116FnQ5h116Vbm116c8LsFkgnDs116kLJqblirEUol86WKl3BHS3u06aCI7ewlh4MGC9Fg117117",
+    "item_date": "2015-02-28 00:00:00",
+    "title": "Hypermedia API maturity model  Part I  Hypermedianess",
+    "url": "http://apihandyman.io/hypermedia-api-maturity-model-part-i-hypermedia-ness/",
+    "domain": "apihandyman.io",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apihandyman-iohypermedia-api-maturity-model-part-i-hypermedia-ness.png"
+  },
+  {
+    "curated_id": "V1Hc116zr7123uOKXK4XhWlvWPsun6NpdFI9NL1b0f6RR2GBPL1Qi0cTPeAlFMRq4hU116Pzj8aqJClUn2YMKf8eHWbA117117",
+    "item_date": "2015-02-17 00:00:00",
+    "title": "Utilising API Blueprint in API Clients",
+    "url": "https://blog.apiary.io/2015/02/17/Utilising-API-Blueprint-in-API-Clients",
+    "domain": "blog.apiary.io",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150217utilising-api-blueprint-in-api-clients.png"
+  },
+  {
+    "curated_id": "cScBNL6UCWVFQMPTCUlhWp74czNaDsHohUwsqmTqblaDgrlNx0EglNBgZT7cXD5erzSOi7FkRSly0U7FLlVObw117117",
+    "item_date": "2015-02-17 06:08:20",
+    "title": "Utilising API Blueprint in API Clients",
+    "url": "https://blog.apiary.io/2015/02/17/Utilising-API-Blueprint-in-API-Clients",
+    "domain": "blog.apiary.io",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150217utilising-api-blueprint-in-api-clients.png"
+  },
+  {
+    "curated_id": "e123WxJLhzqQNEVp6qVhoZmtyblkR36Q123OeaXCuXN4ODsbUkfmilxofwbt8gHTADrGYiqejzqdPMmv1KrjmVNRfw117117",
+    "item_date": "2015-02-17 06:27:16",
+    "title": "thehypermediaprojectrepresentorswift  GitHub",
+    "url": "https://github.com/the-hypermedia-project/representor-swift",
+    "domain": "github.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/github-comthe-hypermedia-projectrepresentor-swift.png"
+  },
+  {
+    "curated_id": "xEA6VqxFV8123vlH37M3xuC91160kFqod5QtPlr9velWpKb9pwEvk116hAm2uOoow59u6tfLowJZFdB3jSLmQ1DsrW7g117117",
+    "item_date": "2015-01-23 00:00:00",
+    "title": "Hypermedia Past Present and Future",
+    "url": "http://blog.runscope.com/posts/hypermedia-past-present-and-future",
+    "domain": "blog.runscope.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-runscope-compostshypermedia-past-present-and-future.png"
+  },
+  {
+    "curated_id": "Sne5123Yik7ht116v89Nnff5IlbVq7Jd0AJldY6NRSIftK2KUrTygwDbjnPtBWylBZDpcGqR79IAKKOGOFLZ116HrVsw117117",
+    "item_date": "2015-01-23 10:25:29",
+    "title": "Can using Profiles w Media Types bridge the Semantic Gap new location  YouTube",
+    "url": "https://www.youtube.com/watch/v=cfCCBmYj6Zw",
+    "domain": "www.youtube.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-youtube-com.png"
+  },
+  {
+    "curated_id": "I8oLGOONj9DonNJUhTF2V9AwrvGjQdIsKYyoBYToyPZHlfX7zKlkznI91DKj4MxzE116dcZgiPXaMl1162onkvs123Jg117117",
+    "item_date": "2015-01-22 00:00:00",
+    "title": "Hypermedia past present and future",
+    "url": "http://www.bizcoder.com:80/hypermedia-past-present-and-future",
+    "domain": "www.bizcoder.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-bizcoder-com:80hypermedia-past-present-and-future.png"
+  },
+  {
+    "curated_id": "KVDjivYhcaRZbUWZV6PGxseCy7j33ke6o029HCk0116eVZ0wmaYs123Vkk8Eg116FJQCnT1168AhSOgFXPKj123CatOanPaA117117",
+    "item_date": "2014-12-24 09:50:09",
+    "title": "Implementing Hypermedia",
+    "url": "https://www.infoq.com/articles/implementing-hypermedia",
+    "domain": "www.infoq.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-infoq-comarticlesimplementing-hypermedia.png"
+  },
+  {
+    "curated_id": "UTZbDd6j9x6G123TPGJ03KgvzPVgT1TKZ3AFsTj4C55116cF0GN1Qu4ckLDdTpWr48FAuHHJt8fdM8sfyNsFN3Cmiw117117",
+    "item_date": "2014-12-18 09:00:52",
+    "title": "Roy Fielding on Versioning Hypermedia and REST",
+    "url": "https://www.infoq.com/articles/roy-fielding-on-versioning",
+    "domain": "www.infoq.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-infoq-comarticlesroy-fielding-on-versioning.png"
+  },
+  {
+    "curated_id": "Sn116Tl2788116B9kNXTtxGbGZPo1QQBbsmCtNpsX1TVLGd8dnYSkLUv8kmuTpZySnXaDet3gVOXjCfLu9PUSI3jww117117",
+    "item_date": "2014-12-18 00:00:00",
+    "title": "API Best Practices Hypermedia Part 2",
+    "url": "http://blogs.mulesoft.com/dev/api-best-practices-hypermedia-part-2/",
+    "domain": "blogs.mulesoft.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blogs-mulesoft-orgapi-best-practices-hypermedia-part-2.png"
+  },
+  {
+    "curated_id": "7AZkNnFoAfPcCxk1161iJHjvq2mndojSBN116YVsJghzr6ZODeKqPncJxhZQGZUoi9S1236hrJBy4jz1ju3zJhfmD9Hw117117",
+    "item_date": "2014-10-27 10:05:03",
+    "title": "We Dont Need Many Hypermedia Formats  Fresh Blurbs By Irakli Nadareishvili",
+    "url": "http://www.freshblurbs.com/blog/2014/10/24/single-hypermedia-type-to-rule-them-all.html",
+    "domain": "www.freshblurbs.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-freshblurbs-comblog20141024single-hypermedia-type-to-rule-them-all-html.png"
+  },
+  {
+    "curated_id": "123N6JiQL1Vgo2zfelJOkhd464QhdvtdTlrdlQyMYrBBzrnqbbqxQlgy2ERPXaZ2BIqUMQFo116r1sjR2ttsEUmKQQ117117",
+    "item_date": "2014-10-17 13:46:05",
+    "title": "403 httpwwwfusioncubenetindexphphypermediaapiclientsuccess",
+    "url": "http://www.fusioncube.net/hypermedia-api-client-success",
+    "domain": "www.fusioncube.net",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-fusioncube-netindex-phphypermedia-api-client-success.png"
+  },
+  {
+    "curated_id": "c684C8eXSgqyBmvxoG2WBZ6ETs7j0lX116drijj0jmHLJWVvQbRfRoXUjQTEPgzhKLRv2I5xW4dZpnIqIJtqmrTg117117",
+    "item_date": "2014-09-30 00:00:00",
+    "title": "Hypermedia and State Machines RESTFest 2014",
+    "url": "http://blog.smartbear.com/readyapi/hypermedia-and-state-machines-restfest-2014/",
+    "domain": "blog.smartbear.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-smartbear-comapisreadyapihypermedia-and-state-machines-restfest-2014.png"
+  },
+  {
+    "curated_id": "LA3CiFpzgJd7ZUIKI236WcUX6ywaDRKO9SJl116s66MpKWJyg3X7BjEf4VS2BPXqPRu5talk7D7XGP12360bqnv2vg117117",
+    "item_date": "2014-08-10 00:00:00",
+    "title": "Detroit and Hypermedia",
+    "url": "http://voxpop.co/go.cfm/article=Detroit_and_Hypermedia",
+    "domain": "voxpop.co",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/voxpopdesign-comgo-cfm.png"
+  },
+  {
+    "curated_id": "ZSBZfFQ6E0rpQOUW6ZW123A3POVv8mwbW47OVF13MAulxqawiCKQ81uZfZmVcjQEYRG3lyu0yx116smdSeaTmaNjPQ117117",
+    "item_date": "2014-08-11 09:23:31",
+    "title": "Hypermedia Resources",
+    "url": "http://davejonathangoldberg.github.io/apis/hypermedia/2014/08/08/hypermedia-resources/",
+    "domain": "davejonathangoldberg.github.io",
+    "image": ""
+  },
+  {
+    "curated_id": "jaNQEebnFw4n116amh5d5NY1OLAx116vKM84IjCsmprqI1i6ncs8fF34pJSdbn3zubgyJ6G3mXLI66E8XfJOGec9mA117117",
+    "item_date": "2014-08-12 20:18:38",
+    "title": "Detroit and Hypermedia  Vox Pop Design",
+    "url": "http://voxpop.co/go.cfm/article=Detroit_and_Hypermedia",
+    "domain": "voxpop.co",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/voxpopdesign-comgo-cfm.png"
+  },
+  {
+    "curated_id": "rxF3evZiopCtGMwpvpnhOdVvf9a9DI6JD3VGm116oNMFl5Q0gU32FMq7fUlz123a5ibEqxj8quJ116xzp1165mJinl7lOQ117117",
+    "item_date": "2014-08-08 09:04:59",
+    "title": "My experiences with Hypermedia API",
+    "url": "http://jordenlowe.com",
+    "domain": "jordenlowe.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-fbombcode-comtitlemy_experiences_with_hypermedia_api.png"
+  },
+  {
+    "curated_id": "JFBy9XvSgqzvmZyefYl6AQZWLzvYf5WBkBYZNZrxJPD1DzhFmBWqYEXDczlgwBfB3RJzqCQzjDNk7CSarJUl7w117117",
+    "item_date": "2014-08-05 00:00:00",
+    "title": "Stop Talking About Hypermedia and REST  Start Building Adaptable APIs",
+    "url": "http://www.mashery.com/blog/stop-talking-about-hypermedia-and-rest-start-building-adaptable-apis",
+    "domain": "www.mashery.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-mashery-comblogstop-talking-about-hypermedia-and-rest-start-building-adaptable-apis.png"
+  },
+  {
+    "curated_id": "116E123v8H7lH123HDq0CGSDdAcxhRDeKh116tPLsQ3FkCYkgL0OSYa9UXZriCIJbmsEEujkPY123PlOrLKoCRRiST116zwT2g117117",
+    "item_date": "2014-08-05 11:39:41",
+    "title": "Stop Talking About Hypermedia and REST  Start Building Adaptable APIs  API Strategy",
+    "url": "http://apistrategy.tumblr.com/post/93811412588/stop-talking-about-hypermedia-and-rest-start",
+    "domain": "apistrategy.tumblr.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apistrategy-tumblr-compost93811412588stop-talking-about-hypermedia-and-rest-start-building.png"
+  },
+  {
+    "curated_id": "BUIfhse1mnaEuFrEOY116pTa2TgjFfikSMLaLz23XfjuJYcLlEopYH116yMj8vXPHHi2RwlxDCD0bcTyILyV4D1wtQ117117",
+    "item_date": "2014-07-31 00:00:00",
+    "title": "API Craft Detroit 2014 Hypermedia Rising",
+    "url": "http://blog.smartbear.com/iot-2/api-craft-detroit-2014-hypermedia-rising/",
+    "domain": "blog.smartbear.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-smartbear-comiot-2api-craft-detroit-2014-hypermedia-rising.png"
+  },
+  {
+    "curated_id": "TTzxvP0yKcZPUyeWXoSzTCjPDcJqnnAzRluY0Sj1cxVFX7a12358116NP123ggbVRG3iLX6Y61116fPW1jfO9mv3Y1Y2rg117117",
+    "item_date": "2014-07-17 12:44:03",
+    "title": "Bizcoder  Hypermedia as the engine of application state the clientserver dance",
+    "url": "http://www.bizcoder.com/hypermedia-as-the-engine-of-application-state-the-client-server-dance",
+    "domain": "www.bizcoder.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-bizcoder-comhypermedia-as-the-engine-of-application-state-the-client-server-dance.png"
+  },
+  {
+    "curated_id": "OMM2mSapORNr123F1PQEBJcBOhTFBojip4R116wyVceSALHJr1nk414CJVlBndxISR8rVSqYLKrYjKRNxbFeUkOjOg117117",
+    "item_date": "2014-07-16 00:00:00",
+    "title": "Hypermedia as the engine of application state the clientserver dance",
+    "url": "http://www.bizcoder.com:80/hypermedia-as-the-engine-of-application-state-the-client-server-dance",
+    "domain": "www.bizcoder.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-bizcoder-com:80hypermedia-as-the-engine-of-application-state-the-client-server-dance.png"
+  },
+  {
+    "curated_id": "DxxjaOmdjQrzx5UuWJpd1ZO2fXVwz7N59123NBTxXoAS93qySE04z4116z215JTu4ptW391rFrTLcPg5116G6BmurlDQ117117",
+    "item_date": "2014-06-23 00:00:00",
+    "title": "Please no more generic hypermedia types",
+    "url": "http://www.bizcoder.com/please-no-more-generic-hypermedia-types",
+    "domain": "www.bizcoder.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-bizcoder-complease-no-more-generic-hypermedia-types.png"
+  },
+  {
+    "curated_id": "EYAspAJGaQz123EEkRiUK5avEPOfGO9hETLWoQmZ116tvSzT123a6yfMCBCIeVbHjSr2KduImjpd123BwBoHMpTO1jZPxw117117",
+    "item_date": "2014-06-20 08:20:10",
+    "title": "Bizcoder  Please no more generic hypermedia types",
+    "url": "http://www.bizcoder.com/please-no-more-generic-hypermedia-types",
+    "domain": "www.bizcoder.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-bizcoder-complease-no-more-generic-hypermedia-types.png"
+  },
+  {
+    "curated_id": "588Hnmgl4W5h945Ty3ITp5MFvVPr9Pjlo9XB4wgwu8YTBvAtEpO23awH6x85GIDbcIaMrZWz7XNuZ116IipRa6iQ117117",
+    "item_date": "2014-06-06 00:00:00",
+    "title": "Verbose Hypermedia Format",
+    "url": "http://verbose.readthedocs.io/en/latest/",
+    "domain": "verbose.readthedocs.io",
+    "image": ""
+  },
+  {
+    "curated_id": "kiqZgRtWYHIaSirLOwwc2eWsy38123re116LVn2iQankuFPPx5JIQG116nKbaRLeeaa4HSvK116SR1xuk6qf3WXBZqmFlQ117117",
+    "item_date": "2014-03-27 08:08:46",
+    "title": "Twitter  kinlane hypermedia apis with Hydra ",
+    "url": "https://twitter.com/kinlane/status/449201369061142529/photo/1",
+    "domain": "twitter.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/twitter-comkinlanestatus449201369061142529photo1.png"
+  },
+  {
+    "curated_id": "EpuCGnfPLPxDZVpEu4vtPMh6KSmjZXCHp7dUVlU1E1w5TbLyFvKnA4Ze4tHTZMdJU7EAbsJCjXJqDo76XK4MYQ117117",
+    "item_date": "2014-03-27 09:12:21",
+    "title": "Hypermedia Cannot be the Engine",
+    "url": "http://www.slideshare.net/RubenVerborgh/hypermedia-cannot-be-the-engine",
+    "domain": "www.slideshare.net",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-slideshare-netrubenverborghhypermedia-cannot-be-the-engine.png"
+  },
+  {
+    "curated_id": "blRCMLjDt7Y7Eu4JoevhvVw4ZZuNBnZYAbCzWSLkaVklgTZxIC0QaCQZEtPADf77oS14k7rCzoDeXvsObD7qsw117117",
+    "item_date": "2014-03-02 00:00:00",
+    "title": "Converting Between Hypermedia Types",
+    "url": "http://smizell.com/weblog/2014/converting-between-hypermedia-types.html",
+    "domain": "smizell.com",
+    "image": ""
+  },
+  {
+    "curated_id": "ynOrbsFOh6JQTni3ViLKTy123t3bG123SSN7erLhOLvNpxAnUP674CAZR6kf5OnGMTdSR8Lj7IqICaV8o116Vql8Zjdg117117",
+    "item_date": "2014-01-08 11:05:20",
+    "title": "Hypermedia APIs and You  Balanced Blog",
+    "url": "http://blog.balancedpayments.com/restful-hypermedia-apis/",
+    "domain": "blog.balancedpayments.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-balancedpayments-comrestful-hypermedia-apis.png"
+  },
+  {
+    "curated_id": "Q81237Za7kogqFnTDXEWWFZcgP5fRlvjpyFLuUOe116Kc62YlOrKGde6KXguLt6K3qVEgl2JNlZE5HqAxKiDNcNzgw117117",
+    "item_date": "2013-12-23 21:32:34",
+    "title": "A Description of Hypermedia APIs",
+    "url": "http://fideloper.com/description-of-hypermedia-apis",
+    "domain": "fideloper.com",
+    "image": ""
+  },
+  {
+    "curated_id": "N5XnKIQtT1VsTZ8FjU2sNFnvT1168b123bDv8t2quZ9ubNdfBPmH116SSkPY3rOTFC1Q40tRaJ7oDA5IHQTdLAkTy20w117117",
+    "item_date": "2013-12-23 21:50:39",
+    "title": "Hypermedia APIs Resources  Notes on Software  Medium",
+    "url": "https://medium.com/@solojavier/hypermedia-apis-resources-9e8f0b85e9",
+    "domain": "medium.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/medium-com@solojavierhypermedia-apis-resources-9e8f0b85e9.png"
+  },
+  {
+    "curated_id": "s37LFYnmE0I116z4tUXLivkZRsS123wADuQKnUa14Jlsp75vtWOariOyXVtGyUoYTSZHsJDKa40VFdAYZ7M10E8YTg117117",
+    "item_date": "2013-06-20 00:00:00",
+    "title": "API Design Harnessing HATEOAS Part 1",
+    "url": "http://apigee.com/about/blog/developer/api-design-harnessing-hateoas-part-1",
+    "domain": "apigee.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/blog-apigee-comdetailapi_design_harnessing_hateoas_part_1.png"
+  },
+  {
+    "curated_id": "G7oRE123wvFuQ2PUIC0tqKmkKfY0F6pji116T04PtEi0wkC8OGt0txBVsAWhvOzkKS9LH8pmxQtAtOccZbELPksQTw117117",
+    "item_date": "2013-06-12 08:42:49",
+    "title": "A Hypermedia API Reading List  Literate Programming",
+    "url": "http://blog.steveklabnik.com/posts/2012-02-27-hypermedia-api-reading-list",
+    "domain": "blog.steveklabnik.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-steveklabnik-composts2012-02-27-hypermedia-api-reading-list.png"
+  },
+  {
+    "curated_id": "S116xyp123ADlifbB2COazYdMhM6E3g1rgXN6OnSKL4VhAJTe7TiwlsMa123ZY5ohkvp0u6IID0F123Fwb0AcGAn226NCg117117",
+    "item_date": "2013-06-11 19:42:45",
+    "title": "Designing Hypermedia APIs",
+    "url": "http://www.designinghypermediaapis.com/",
+    "domain": "www.designinghypermediaapis.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/www-designinghypermediaapis-com.png"
+  },
+  {
+    "curated_id": "aHo1161169paR2Ng6JgqC116I123JeHWZr8LAcryUfqLkr8Igto0EDKb0B8QD4116T8rSAkesX6uZqy2H3ViJPS6IZHEGHvQ117117",
+    "item_date": "2013-06-07 00:00:00",
+    "title": "Hypermedia Workflow Questions",
+    "url": "http://www.apiacademy.co/hypermedia-workflow-questions/",
+    "domain": "www.apiacademy.co",
+    "image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/www-apiacademy-coblog-posthypermedia-workflow-questions.png"
+  },
+  {
+    "curated_id": "xJLcAqCPRHk1Z7Nt123o8gxQ0EFLb25K116VmdgCyQlmS6sUzHDER71XC3ZO9U5b1239hcpV46GhmEeAwQnxcjnjiglA117117",
+    "item_date": "2013-02-18 02:47:10",
+    "title": "The next iteration of Designing Hypermedia APIs",
+    "url": "http://blog.steveklabnik.com/posts/2013-02-12-the-next-iteration-of-designing-hypermedia-apis",
+    "domain": "blog.steveklabnik.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/9352_api500_com.png"
+  },
+  {
+    "curated_id": "2vcoeeZvWka116A55tk8YcovzSvbgPRCZbSt8OPlibjOUtuHOr123QREWIaRxjFPqTelPpiCGDNO3WhrZYXqX1g9kw117117",
+    "item_date": "2013-02-07 18:24:49",
+    "title": "Designing and Implementing Hypermedia APIs",
+    "url": "https://www.infoq.com/articles/hypermedia-api-tutorial-part-one",
+    "domain": "www.infoq.com",
+    "image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/9352_api500_com.png"
+  }
+]
