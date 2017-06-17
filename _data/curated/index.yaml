@@ -237,16 +237,16 @@
   url: http://blog.runscope.com/posts/moving-beyond-the-browser-with-javascript-and-hypermedia
   domain: blog.runscope.com
   image: ""
-- curated_id: 7a7e307caa3540460d57a085b7135cf0
-  item_date: "2015-06-05 14:33:33"
-  title: Hyperdrive?Apiary Blog
-  url: http://blog.apiary.io/2015/06/04/Hyperdrive/
-  domain: blog.apiary.io
-  image: ""
 - curated_id: 9b2129bafb2326f1e6bfa8902090799d
   item_date: "2015-06-05 14:33:33"
   title: Hyperdrive?Apiary Blog
   url: https://blog.apiary.io/2015/06/04/Hyperdrive
+  domain: blog.apiary.io
+  image: ""
+- curated_id: 7a7e307caa3540460d57a085b7135cf0
+  item_date: "2015-06-05 14:33:33"
+  title: Hyperdrive?Apiary Blog
+  url: http://blog.apiary.io/2015/06/04/Hyperdrive/
   domain: blog.apiary.io
   image: ""
 - curated_id: f29a24639d1927e8f647d4e098c0ee4c
@@ -380,5 +380,31 @@
   title: What about hypermedia?
   url: http://www.apiful.io/intro/2016/09/27/hypermedia.html
   domain: www.apiful.io
+  image: ""
+- curated_id: 88c5eb1b518bf1151bb806112588d278
+  item_date: "2017-02-03 00:00:00"
+  title: 'Linksets: Beyond Inline Hypermedia Controls'
+  url: http://dret.typepad.com/dretblog/2017/02/linksets-beyond-inline-hypermedia-controls.html
+  domain: dret.typepad.com
+  image: ""
+- curated_id: 9a55d853396e7cb1271b9340f7c8450f
+  item_date: "2017-03-15 09:30:23"
+  title: 'Tweet: Hypermedia APIs and HATEOAS - Volodymyr Tsukur (@flushdia) /via @WixEng'
+  url: https://twitter.com/alps_io/statuses/842050354955079680
+  domain: twitter.com
+  image: ""
+- curated_id: e58e519f9bdc06055fca6c8863011055
+  item_date: "2017-04-07 00:00:00"
+  title: "Concepts to Integration \u2013 Metadata"
+  url: http://blog.scribesoft.com/concepts-to-integration-metadata/
+  domain: blog.scribesoft.com
+  image: ""
+- curated_id: f06d9d21ce4c4fa7191c891502809e6d
+  item_date: "2017-04-10 12:21:09"
+  title: |-
+    Tweet: The benefits of a Hypermedia API. Evolvable, Informative amp;amp; loosely coupled. Our guide:
+    https://t.co/sVt3psxu99 Thanhellip; https://t.co/392tvExAj5
+  url: https://twitter.com/tyk_io/statuses/851515412412018688
+  domain: twitter.com
   image: ""
 ...
