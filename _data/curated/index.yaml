@@ -5,4 +5,386 @@
   url: https://tune.com/blog/startups-need-api/
   domain: tune.com
   image: ""
+- curated_id: 678b111d7d3caf7c86533660bb93c3e1
+  item_date: "2013-02-07 18:24:49"
+  title: Designing and Implementing Hypermedia APIs
+  url: https://www.infoq.com/articles/hypermedia-api-tutorial-part-one
+  domain: www.infoq.com
+  image: ""
+- curated_id: 4e08436a42ca93433f271f7da0a7d29b
+  item_date: "2013-02-18 02:47:10"
+  title: The next iteration of Designing Hypermedia APIs
+  url: http://blog.steveklabnik.com/posts/2013-02-12-the-next-iteration-of-designing-hypermedia-apis
+  domain: blog.steveklabnik.com
+  image: ""
+- curated_id: be11cb0ab93d2295db76fc7680c382ed
+  item_date: "2013-06-07 00:00:00"
+  title: Hypermedia Workflow Questions
+  url: http://www.apiacademy.co/hypermedia-workflow-questions/
+  domain: www.apiacademy.co
+  image: ""
+- curated_id: c0b2b1f783a7b2b5993d097ffe3e7560
+  item_date: "2013-06-11 19:42:45"
+  title: Designing Hypermedia APIs
+  url: http://www.designinghypermediaapis.com/
+  domain: www.designinghypermediaapis.com
+  image: ""
+- curated_id: 7df783f9d31f00753c2b5b97376c4e45
+  item_date: "2013-06-20 00:00:00"
+  title: 'API Design: Harnessing HATEOAS, Part 1'
+  url: http://apigee.com/about/blog/developer/api-design-harnessing-hateoas-part-1
+  domain: apigee.com
+  image: ""
+- curated_id: 609ef7b42ed5c3bdebaf25846b9cb6f8
+  item_date: "2014-01-08 11:05:20"
+  title: ""
+  url: http://blog.balancedpayments.com/restful-hypermedia-apis/
+  domain: blog.balancedpayments.com
+  image: ""
+- curated_id: 84dce1d7d67f9bd2ff4e01d0f6abd1fa
+  item_date: "2014-03-02 00:00:00"
+  title: Converting Between Hypermedia Types
+  url: http://smizell.com/weblog/2014/converting-between-hypermedia-types.html
+  domain: smizell.com
+  image: ""
+- curated_id: eedaad5065026d432c4ca74dad7ea5b8
+  item_date: "2014-06-06 00:00:00"
+  title: Verbose Hypermedia Format
+  url: http://verbose.readthedocs.io/en/latest/
+  domain: verbose.readthedocs.io
+  image: ""
+- curated_id: 1eb3ef05d1f575ed11897742944eb0e5
+  item_date: "2014-06-23 00:00:00"
+  title: Please, no more generic hypermedia types
+  url: http://www.bizcoder.com/please-no-more-generic-hypermedia-types
+  domain: www.bizcoder.com
+  image: ""
+- curated_id: b2857a218496904d9bcb2fbf3610e744
+  item_date: "2014-07-16 00:00:00"
+  title: Hypermedia as the engine of application state, the client-server dance
+  url: http://www.bizcoder.com:80/hypermedia-as-the-engine-of-application-state-the-client-server-dance
+  domain: www.bizcoder.com
+  image: ""
+- curated_id: 5ea762b3990754dec6cd83af5e7dbafe
+  item_date: "2014-07-17 12:44:03"
+  title: Bizcoder - Hypermedia as the engine of application state, the client-server
+    dance
+  url: http://www.bizcoder.com/hypermedia-as-the-engine-of-application-state-the-client-server-dance
+  domain: www.bizcoder.com
+  image: ""
+- curated_id: 7f4e96a35bc1a3aee8772f906d5decb8
+  item_date: "2014-07-31 00:00:00"
+  title: 'API Craft Detroit 2014: Hypermedia Rising'
+  url: http://blog.smartbear.com/iot-2/api-craft-detroit-2014-hypermedia-rising/
+  domain: blog.smartbear.com
+  image: ""
+- curated_id: 7f0be6302ee53cc3595a0ebbcddd840d
+  item_date: "2014-08-05 00:00:00"
+  title: Stop Talking About Hypermedia and REST - Start Building Adaptable APIs
+  url: http://www.mashery.com/blog/stop-talking-about-hypermedia-and-rest-start-building-adaptable-apis
+  domain: www.mashery.com
+  image: ""
+- curated_id: 9db6ab7015b7848e328da63f39060adc
+  item_date: "2014-08-05 11:39:41"
+  title: Stop Talking About Hypermedia and REST - Start Building Adaptable APIs |
+    API Strategy
+  url: http://apistrategy.tumblr.com/post/93811412588/stop-talking-about-hypermedia-and-rest-start
+  domain: apistrategy.tumblr.com
+  image: ""
+- curated_id: ae30bb31dbe7fba9a37fc6a3a6cb8f43
+  item_date: "2014-08-08 09:04:59"
+  title: My experiences with Hypermedia API
+  url: http://jordenlowe.com
+  domain: jordenlowe.com
+  image: ""
+- curated_id: 1057602d2558a329ef4155282dc3a4fd
+  item_date: "2014-08-11 09:23:31"
+  title: Hypermedia Resources
+  url: http://davejonathangoldberg.github.io/apis/hypermedia/2014/08/08/hypermedia-resources/
+  domain: davejonathangoldberg.github.io
+  image: ""
+- curated_id: 84fdc9230900ae14004c533c04df14b1
+  item_date: "2014-08-12 20:18:38"
+  title: Detroit and Hypermedia - Vox Pop Design
+  url: http://voxpop.co/go.cfm/article=Detroit_and_Hypermedia
+  domain: voxpop.co
+  image: ""
+- curated_id: 8ab6973b7ec11676287160a53783c286
+  item_date: "2014-09-30 00:00:00"
+  title: 'Hypermedia and State Machines: RESTFest 2014'
+  url: http://blog.smartbear.com/readyapi/hypermedia-and-state-machines-restfest-2014/
+  domain: blog.smartbear.com
+  image: ""
+- curated_id: 9a4ea89c9ec76b08897bfd2898e77e51
+  item_date: "2014-12-18 00:00:00"
+  title: 'API Best Practices: Hypermedia (Part 2)'
+  url: http://blogs.mulesoft.com/dev/api-best-practices-hypermedia-part-2/
+  domain: blogs.mulesoft.com
+  image: ""
+- curated_id: 6e5bcca74bbf7781c8dac64c09be908d
+  item_date: "2014-12-18 09:00:52"
+  title: Roy Fielding on Versioning, Hypermedia, and REST
+  url: https://www.infoq.com/articles/roy-fielding-on-versioning
+  domain: www.infoq.com
+  image: ""
+- curated_id: f06c3cbee5dfb3702cfcafc221c7789a
+  item_date: "2014-12-24 09:50:09"
+  title: Implementing Hypermedia
+  url: https://www.infoq.com/articles/implementing-hypermedia
+  domain: www.infoq.com
+  image: ""
+- curated_id: c3aba8c88863fa98e4045489f743b225
+  item_date: "2015-01-22 00:00:00"
+  title: Hypermedia, past, present and future
+  url: http://www.bizcoder.com:80/hypermedia-past-present-and-future
+  domain: www.bizcoder.com
+  image: ""
+- curated_id: 0b0490be111293aedd838df38a3054be
+  item_date: "2015-01-23 00:00:00"
+  title: Hypermedia, Past, Present and Future
+  url: http://blog.runscope.com/posts/hypermedia-past-present-and-future
+  domain: blog.runscope.com
+  image: ""
+- curated_id: 7e881b88e5f1d60e86fb6392b3c761eb
+  item_date: "2015-01-23 10:25:29"
+  title: Can using Profiles w/ Media Types bridge the Semantic Gap? (new location)
+    - YouTube
+  url: https://www.youtube.com/watch/v=cfCCBmYj6Zw
+  domain: www.youtube.com
+  image: ""
+- curated_id: 2b9b0d0e8c5f77a5e8bb916f0b78a7dd
+  item_date: "2015-02-17 06:08:20"
+  title: Utilising API Blueprint in API Clients
+  url: https://blog.apiary.io/2015/02/17/Utilising-API-Blueprint-in-API-Clients
+  domain: blog.apiary.io
+  image: ""
+- curated_id: ad9353cbb4ce46819970ecc60b4fd541
+  item_date: "2015-02-17 06:27:16"
+  title: ""
+  url: https://github.com/the-hypermedia-project/representor-swift
+  domain: github.com
+  image: ""
+- curated_id: dc24341cdcc02179925c1e0eeda3a1f3
+  item_date: "2015-02-28 00:00:00"
+  title: Hypermedia API maturity model ? Part I ? Hypermedia-ness
+  url: http://apihandyman.io/hypermedia-api-maturity-model-part-i-hypermedia-ness/
+  domain: apihandyman.io
+  image: ""
+- curated_id: 0a0d3a5de2ef970b304c27c21afb6ca0
+  item_date: "2015-03-11 00:00:00"
+  title: How to Use Hypermedia APIs to Deliver HTML With Adaptive Web Design
+  url: http://nordicapis.com/html-hypermedia-apis-and-adaptive-web-design/
+  domain: nordicapis.com
+  image: ""
+- curated_id: c7c79df07899eb3207972f2b49352e45
+  item_date: "2015-03-15 00:00:00"
+  title: Hypermedia API maturity model ? Part II ? The missing links
+  url: http://apihandyman.io/hypermedia-api-maturity-model-part-ii-the-missing-links/
+  domain: apihandyman.io
+  image: ""
+- curated_id: e5432dfc116ec54830c9bddb5ffaf710
+  item_date: "2015-04-27 15:46:24"
+  title: How The Guardian is Approaching Hypermedia Based API Infrastructure
+  url: http://www.programmableweb.com/news/how-guardian-approaching-hypermedia-based-api-infrastructure/2015/04/27
+  domain: www.programmableweb.com
+  image: ""
+- curated_id: 6ebd58d5b3f23677f29ec77ff6eb3150
+  item_date: "2015-04-28 00:00:00"
+  title: Why You Shouldn#039;t Dismiss Hypermedia in Your API Design
+  url: http://www.programmableweb.com/news/why-you-shouldnt-dismiss-hypermedia-your-api-design/elsewhere-web/2015/04/28
+  domain: www.programmableweb.com
+  image: ""
+- curated_id: ddaa2b3b43c581dfd7f102f1e5749d2e
+  item_date: "2015-04-29 03:26:01"
+  title: Overview of JSON Hypermedia Link Formats / Articles / dracoblue.net
+  url: http://dracoblue.net/dev/overview-of-json-hypermedia-link-formats/
+  domain: dracoblue.net
+  image: ""
+- curated_id: e4dc9705ba63908f5ec2a8bb6798527e
+  item_date: "2015-04-30 00:00:00"
+  title: The Movement Towards Hypermedia APIs ? Is it Happening?
+  url: https://blog.akana.com/hypermedia-apis/
+  domain: blog.akana.com
+  image: ""
+- curated_id: 1140d7c4080b6ae13207d9a8bbc4153d
+  item_date: "2015-04-30 00:23:57"
+  title: 'Hypermedia: dont bother'
+  url: http://www.ebpml.org/blog2/index.php/2015/04/30/hypermedia-don-t-bother
+  domain: www.ebpml.org
+  image: ""
+- curated_id: 7fddd1b774034f3bbb29df3db50aeb98
+  item_date: "2015-05-04 09:00:00"
+  title: Open Badges Technical Specification
+  url: https://openbadgespec.org/
+  domain: openbadgespec.org
+  image: ""
+- curated_id: 50fe5993ce380bdd01ac00ba4609c0ef
+  item_date: "2015-05-07 08:59:33"
+  title: On choosing a hypermedia type for your API - HAL, JSON-LD, Collection+JSON,
+    SIREN, Oh My!
+  url: https://gist.github.com/soofaloofa/9350847
+  domain: gist.github.com
+  image: ""
+- curated_id: 824f3f3460b38c47ff9531da115b7801
+  item_date: "2015-05-12 10:02:42"
+  title: mca blog  [RESTFest 2015 is Sep 17-19!]
+  url: http://amundsen.com/blog/archives/1158
+  domain: amundsen.com
+  image: ""
+- curated_id: 6a3fac92c29f9480bf33ead7e47db095
+  item_date: "2015-05-22 14:18:15"
+  title: Uniform Basis for Exchanging Representations (UBER)
+  url: https://rawgit.com/uber-hypermedia/specification/master/uber-hypermedia.html
+  domain: rawgit.com
+  image: ""
+- curated_id: 29ebb802fd3fe063e211e64bbaa0f956
+  item_date: "2015-05-27 00:00:00"
+  title: Moving Beyond the Browser with JavaScript and Hypermedia
+  url: http://blog.runscope.com/posts/moving-beyond-the-browser-with-javascript-and-hypermedia
+  domain: blog.runscope.com
+  image: ""
+- curated_id: 7a7e307caa3540460d57a085b7135cf0
+  item_date: "2015-06-05 14:33:33"
+  title: Hyperdrive?Apiary Blog
+  url: http://blog.apiary.io/2015/06/04/Hyperdrive/
+  domain: blog.apiary.io
+  image: ""
+- curated_id: 9b2129bafb2326f1e6bfa8902090799d
+  item_date: "2015-06-05 14:33:33"
+  title: Hyperdrive?Apiary Blog
+  url: https://blog.apiary.io/2015/06/04/Hyperdrive
+  domain: blog.apiary.io
+  image: ""
+- curated_id: f29a24639d1927e8f647d4e098c0ee4c
+  item_date: "2015-06-13 10:05:15"
+  title: ""
+  url: https://github.com/kevinswiber/siren/wiki/Clients,-Parsers,-Serializers,-and-Browsers
+  domain: github.com
+  image: ""
+- curated_id: 1e0d19fc8d3057449a23e6a210b9e424
+  item_date: "2015-06-22 07:41:08"
+  title: 'The Whats and Hows of Hypermedia APIs (Part 2): Hypermedia Types'
+  url: https://www.api2cart.com/blog/whats-hows-hypermedia-apis-part-2-hypermedia-types/
+  domain: www.api2cart.com
+  image: ""
+- curated_id: f955986782aae9157afcb274f958a994
+  item_date: "2015-07-09 00:00:00"
+  title: Design of a Hypermedia REST API Server and Consuming Client
+  url: http://www.infoq.com/news/2015/07/hypermedia-rest-web-api
+  domain: www.infoq.com
+  image: ""
+- curated_id: ce8c072c2464114e85f9eb6552e388c6
+  item_date: "2015-09-01 05:15:20"
+  title: API Modeling and Design with Hypermedia
+  url: http://webofmike.com/api-modeling-and-design-with-hypermedia-and-contextual-information/
+  domain: webofmike.com
+  image: ""
+- curated_id: 80d1dd400732322a38a12f2b0617f8cd
+  item_date: "2015-11-26 16:22:51"
+  title: Lack of Hypermedia, by Ben Ramsey
+  url: https://benramsey.com/blog/2015/11/lack-of-hypermedia/
+  domain: benramsey.com
+  image: ""
+- curated_id: fccb1c757183de7c7bdf7b41b01eddaf
+  item_date: "2016-01-05 09:57:21"
+  title: Improving Your API Conversations with Hypermedia, ETags, and Real-Time APIs
+  url: http://launchany.com/extending-your-api-conversations/
+  domain: launchany.com
+  image: ""
+- curated_id: 47c1166abbd3cb14fcb0bd9f5ed91bee
+  item_date: "2016-01-12 10:22:06"
+  title: Why Hypermedia Makes Sense
+  url: http://clarify.io/blog/why-hypermedia-makes-sense/
+  domain: clarify.io
+  image: ""
+- curated_id: a7efc71c00bd52aee79cc5fdefe9b2cd
+  item_date: "2016-01-18 00:00:00"
+  title: Hypermedia/HATEOAS Support in JAX-RS 2/Java EE 7
+  url: https://dzone.com/articles/hypermediahateoas-support-in-jax-rs-2java-ee-7
+  domain: dzone.com
+  image: ""
+- curated_id: 013eed6f1cb67473d26f515c545f40e9
+  item_date: "2016-01-19 00:00:00"
+  title: 'Interview: Jon Moore on Hypermedia APIs and Distributed Monotonic Clocks'
+  url: http://www.infoq.com/interviews/moore-apis-clocks
+  domain: www.infoq.com
+  image: ""
+- curated_id: 8cc75cb3700efcb641432d837c7520f8
+  item_date: "2016-02-01 18:10:11"
+  title: sirenlint
+  url: https://www.npmjs.com/package/sirenlint
+  domain: www.npmjs.com
+  image: ""
+- curated_id: 167c34c0269a53b421c4f61e54376ea2
+  item_date: "2016-02-02 00:00:00"
+  title: an online tutorial -- with friends
+  url: http://www.amundsen.com/blog/archives/1166
+  domain: www.amundsen.com
+  image: ""
+- curated_id: 5d8bcaf1ce2933a58b6aec82db41274e
+  item_date: "2016-02-13 00:00:00"
+  title: Spring Data REST ? Data Meets Hypermedia and Security
+  url: https://dzone.com/articles/spring-data-rest-data-meets-hypermedia-security
+  domain: dzone.com
+  image: ""
+- curated_id: ad90d9ebfb57efbc36e62e6f0fefbdb0
+  item_date: "2016-02-17 09:03:38"
+  title: The Ion Data Interchange Format
+  url: http://ionwg.github.io/draft-ion.html
+  domain: ionwg.github.io
+  image: ""
+- curated_id: 35c07435b42a09792a646d0f58d2bd06
+  item_date: "2016-02-29 00:00:00"
+  title: Don?t Hate The HATEOAS
+  url: http://www.codeproject.com/Articles/1081859/Don-t-Hate-The-HATEOAS
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 080504ac9510b9acc9ce43622e009661
+  item_date: "2016-03-08 14:01:39"
+  title: Darrel Miller on whether Hypermedia APIs will save the universe
+  url: http://apieconomist.com/blog/darrel-miller-hypermedia-apis
+  domain: apieconomist.com
+  image: ""
+- curated_id: a88d9d630f899ed02bad787a80291a29
+  item_date: "2016-05-09 00:00:00"
+  title: 'Don?t Hate the HATEOAS Part Deux: Springtime for HATEOAS'
+  url: http://www.codeproject.com/Articles/1098930/Don-t-Hate-the-HATEOAS-Part-Deux-Springtime-for-HA
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 756b1c183f61a1a403778776de0fc3b3
+  item_date: "2016-06-14 00:00:00"
+  title: 'Presentation: Hypermedia Web API as a Network of Data'
+  url: https://www.infoq.com/presentations/data-hypermedia-rest
+  domain: www.infoq.com
+  image: ""
+- curated_id: 516c9a26fc7c4222aeae76915f19804e
+  item_date: "2016-08-06 00:00:00"
+  title: 'Whypermedia: Why use Hypermedia?'
+  url: http://dret.typepad.com/dretblog/2016/08/whypermedia-why-use-hypermedia.html
+  domain: dret.typepad.com
+  image: ""
+- curated_id: ddfc88d9b993edf28591ecb5acd14744
+  item_date: "2016-08-10 00:00:00"
+  title: 'API Maps: Hypermedia API Design'
+  url: http://dret.typepad.com/dretblog/2016/08/api-maps-hypermedia-api-design.html
+  domain: dret.typepad.com
+  image: ""
+- curated_id: 630638a2cecd60dd41846b50362ec287
+  item_date: "2016-08-27 15:12:55"
+  title: Twelve Patterns for Hypermedia Service Architecture
+  url: http://amundsen.com/talks/2016-04-sacon-patterns/index.html
+  domain: amundsen.com
+  image: ""
+- curated_id: 7ecb7fce3a2ef3abfbf0ae1110d335d2
+  item_date: "2016-09-01 00:00:00"
+  title: 'RESTful and HATEOAS Services: Revisited'
+  url: https://dzone.com/articles/restful-and-hateoas-services-nbsprevisited
+  domain: dzone.com
+  image: ""
+- curated_id: fe35e39cc15bb739d80cebf2d2145eb2
+  item_date: "2016-09-26 00:00:00"
+  title: What about hypermedia?
+  url: http://www.apiful.io/intro/2016/09/27/hypermedia.html
+  domain: www.apiful.io
+  image: ""
 ...
