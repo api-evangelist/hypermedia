@@ -49,7 +49,7 @@
   blogrss: ""
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/fortune-js-logo-2.png
-  tags: 'Hypermedia, Deployment, '
+  tags: 'Hypermedia,Deployment, '
 - slug: jsonapi
   name: JSON API
   description: A specification for building JSON APIs
@@ -60,7 +60,7 @@
   blogrss: ""
   github: https://github.com/json-api/json-api
   image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
-  tags: Definitions, Hypermedia, Prototyping, Virtualization
+  tags: Definitions,Hypermedia,Prototyping, Virtualization
 - slug: hal
   name: HAL
   description: HAL is a simple format that gives a consistent and easy way to hyperlink
