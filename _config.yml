@@ -1,6 +1,10 @@
-title:        Hypermedia APIs
+title:        Hypermedia
 url:          http://hypermedia.apievangelist.com
-logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-hypermedia.png
+raw_url: http://hypermedia.apievangelist.com/apis/
+
+tag: Design
+
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-design.png
 logo_width:   80
 logo_bottom_padding: 10
 
@@ -11,121 +15,17 @@ author:
 markdown:     kramdown
 
 permalink: /:categories/:year/:month/:day/:title/
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 
-paginate: 150
+paginate: 25
 paginate_path: "/blog/page:num"
 
-categories_path : /categories.html
-tags_path : /tags.html
-
-# Masthead title
-masthead_link: http://hypermedia.apievangelist.com
-masthead_font_size: 75
-masthead_title: '{"Hypermedia APIs"}'
-
-# Feature
-feature_title: API Guide
-feature_link: http://apievangelist.com
-feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/api-guides-loading.jpg
-feature_image_width: 40
-
-# Project
-project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-hypermedia.png
-project_summary: This is my research into hypermedia design principles, as applied to web APIs. I am considering merging this with my API design research, but for now I will leave separate, to help bring attention to the fast moving concept. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling in this research report.
-
-# Navigation
-navigation:
-  - label1: Home
-    link1: /index.html
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 0
-    padding: 0
-    decorate: 0
-  - label1: Blog
-    link1: /blog/
-    size1: 80
-    extend: 1
-    label2: RSS
-    link2: /blog.xml
-    size2: 60
-    padding: 0
-    decorate: 0
-  - label1: News
-    link1: /news/
-    size1: 80
-    extend: 1
-    label2: RSS
-    link2: /news.xml
-    size2: 60
-    padding: 0
-    decorate: 0
-  - label1: Hypermedia APIs
-    link1: /apis/
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 60
-    padding: 0
-    decorate: 0
-  - label1: Tools
-    link1: /tools/
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 60
-    padding: 0
-    decorate: 0
-  - label1: Return to API Evangelist
-    link1: http://apievangelist.com
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 10
-    padding: 0
-    decorate: 1
-
-# Footer Navigation
-footernavigation:
-  - label: API 100K View
-    link: http://apievangelist.com
-  - label: News
-    link: /news/
-  - label: Partners
-    link: http://apievangelist.com/partners/
-  - label: APIs.json
-    link: http://apisjson.org
-  - label: About Kin Lane
-    link: http://kinlane.com
-  - label: Branding Guidelines
-    link: http://apievangelist.com/branding-guidelines.html
-  - label: Contact
-    link: http://kinlane.com/contacts/
-
-# sponsors
-sponsors_margin_top: 3
-sponsors_padding_top: 3
-sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
-
-# support
-support_title: Support My API Design Research
-support_header: I depend on the support of my partners to fund my work as an independent analysts. I have been monitoring the world of APIs since July of 2010 through the support of my partners, and a handful of writing or consulting projects along the way. If you find what I do valuable, please help support me by purchasing my guides, giving below, or if there are specific aspects of API design you'd like me to focus on, let me know, and maybe we can find a way to provide you with what you are looking for.
-support_footer: I pay my bills by consulting on API projects, and writing white papers and guides. You can find much of my research freely available across my website(s), but if you want to support my work, and get a single snapshot of it at any point in time, I recommend <a href="/guide/">purchasing my API design guide</a>. Anyone who gives $250.00 or more a month, will automatically get access to all of my content via a shared Dropbox, Google Drive, or Github repository. Thank you for your support, and feel free to ping me directly if you have more questions.
+github_user: api-evangelist
+github_repo: hypermedia
+github_branch: gh-pages
 
 # Footer
 footer_title: API Evangelist
 footer_link: http://apievangelist.com
 footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
 footer_image_width: 60
-
-# curated
-curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API design--these are the links I am including in my research.
-
-# organizations
-org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with API design. These are the organizations I'm currently including in my API design research.
