@@ -10,7 +10,7 @@
   blogrss: ""
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/jsonapi@1.3x.png
-  tags: Hypermedia
+  tags: Hypermedia,Media Type
 - slug: hal-browser
   name: HAL Browser
   description: An API browser for the hal+json media type.&nbsp;HAL is a simple format
@@ -24,7 +24,7 @@
   blogrss: ""
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/hal-info-model.png
-  tags: Hypermedia
+  tags: Hypermedia,Media Type
 - slug: collection+json
   name: Collection+JSON
   description: Collection+JSON is a JSON-based read/write hypermedia-type designed
@@ -36,7 +36,7 @@
   blogrss: https://github.com/collection-json
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/madmen_icon_400x400.jpg
-  tags: Hypermedia,Definitions,Design
+  tags: Hypermedia,Definitions,Design,Media Type
 - slug: fortune.js
   name: Fortune.js
   description: Hello nerds. Fortune is a framework for prototyping hypermedia APIs
@@ -49,7 +49,7 @@
   blogrss: ""
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/fortune-js-logo-2.png
-  tags: 'Hypermedia,Deployment, '
+  tags: Hypermedia,Deployment,Framework,Mock,Virtualization
 - slug: jsonapi
   name: JSON API
   description: A specification for building JSON APIs
@@ -60,7 +60,7 @@
   blogrss: ""
   github: https://github.com/json-api/json-api
   image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png
-  tags: Definitions,Hypermedia,Prototyping, Virtualization
+  tags: Definitions,Hypermedia,Media Type
 - slug: hal
   name: HAL
   description: HAL is a simple format that gives a consistent and easy way to hyperlink
@@ -77,7 +77,7 @@
   blogrss: ""
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
-  tags: Hypermedia,Definitions,Design
+  tags: Hypermedia,Definitions,Design,Media Type
 - slug: jsonld
   name: JSON-LD
   description: JSON-LD is a lightweight Linked Data format. It is easy for humans
@@ -92,7 +92,7 @@
   blogrss: ""
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/json-ld.png
-  tags: Hypermedia,Definitions,Semantics,Design
+  tags: Hypermedia,Definitions,Semantics,Design,Media Type
 - slug: mason
   name: Mason
   description: Mason is a JSON format for introducing hypermedia elements to classic
@@ -107,7 +107,7 @@
   blogrss: ""
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/jorn-wildt.jpeg
-  tags: Hypermedia,Definitions, Design
+  tags: Hypermedia,Definitions,DesignMedia Type
 - slug: restdesc
   name: RESTdesc
   description: 'Semantic descriptions for hypermedia APIs. RESTdesc allows you to
@@ -122,5 +122,5 @@
   blogrss: ""
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/restdesc-logo.png
-  tags: Hypermedia,Definitions,Design
+  tags: Hypermedia,Definitions,Design,Media Type
 ...
