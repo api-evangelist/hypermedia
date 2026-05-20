@@ -1,0 +1,264 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Hypermedia
+  description: Vocabulary for the hypermedia topic, covering HATEOAS, hypermedia formats (HAL, JSON:API, Siren, Collection+JSON, JSON-LD/Hydra, ALPS, UBER, Mason, Verbose), link relations, web linking, and the standards that define them.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: OpenProject API v3
+      namespace: openproject
+      status: active
+    - name: Reverb REST API
+      namespace: reverb
+      status: active
+    - name: Patreon API v2
+      namespace: patreon
+      status: active
+    - name: MBTA V3 API
+      namespace: mbta
+      status: active
+    - name: Teamtailor API
+      namespace: teamtailor
+      status: active
+    - name: Drupal JSON:API
+      namespace: drupal
+      status: active
+
+  resources:
+    - name: resources
+      description: Hypermedia resource representations carrying links and embedded children
+      actions:
+        - get
+        - list
+        - follow-link
+        - create
+        - update
+        - delete
+    - name: links
+      description: Typed hyperlinks expressed via the HTTP Link header or inside hypermedia bodies
+      actions:
+        - emit
+        - parse
+        - resolve
+        - follow
+    - name: link-relations
+      description: IANA-registered or extension link relation types that give shared meaning to rel values
+      actions:
+        - register
+        - lookup
+        - describe
+    - name: formats
+      description: Hypermedia media types (HAL, JSON:API, Siren, Collection+JSON, JSON-LD/Hydra, ALPS, UBER, Mason, Verbose)
+      actions:
+        - serialize
+        - parse
+        - negotiate
+    - name: catalogs
+      description: Discovery documents such as APIs.json or RFC 9264 api-catalog that act as hypermedia entry points to an API surface
+      actions:
+        - publish
+        - fetch
+        - crawl
+
+  actions:
+    - name: get
+      description: Retrieve a hypermedia resource representation
+      httpMethod: GET
+      pattern: read
+    - name: list
+      description: Retrieve a paginated collection of hypermedia resources
+      httpMethod: GET
+      pattern: read
+    - name: follow-link
+      description: Dereference a link by its rel and embedded href
+      httpMethod: GET
+      pattern: navigate
+    - name: create
+      description: Create a new resource via an advertised affordance
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update a resource via an advertised affordance
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Delete a resource via an advertised affordance
+      httpMethod: DELETE
+      pattern: destructive
+    - name: emit
+      description: Generate a Link header or in-body link block on a response
+      pattern: write
+    - name: parse
+      description: Parse a Link header or hypermedia document into a link or resource model
+      pattern: read
+    - name: resolve
+      description: Resolve a URI Template against a parameter set per RFC 6570
+      pattern: transform
+    - name: follow
+      description: Issue a request against a resolved link
+      httpMethod: GET
+      pattern: navigate
+
+  schemas:
+    core:
+      - name: HALResource
+        description: A HAL resource with _links and _embedded
+        properties:
+          - _links
+          - _embedded
+      - name: LinkRelation
+        description: A typed web link per RFC 8288
+        properties:
+          - rel
+          - href
+          - anchor
+          - templated
+          - type
+          - hreflang
+          - title
+          - profile
+          - deprecation
+
+  enums:
+    hypermedia_formats:
+      - application/hal+json
+      - application/hal+xml
+      - application/vnd.api+json
+      - application/vnd.siren+json
+      - application/vnd.collection+json
+      - application/ld+json
+      - application/alps+json
+      - application/vnd.uber+json
+      - application/vnd.mason+json
+      - application/vnd.amundsen-uber+json
+    common_link_relations:
+      - self
+      - next
+      - prev
+      - first
+      - last
+      - up
+      - related
+      - describedby
+      - collection
+      - item
+      - edit
+      - alternate
+      - author
+      - license
+      - service-doc
+      - service-desc
+      - service-meta
+    standards:
+      - RFC 5988
+      - RFC 8288
+      - RFC 6570
+      - RFC 9264
+      - draft-kelly-json-hal
+
+capability:
+  workflows:
+    - name: HATEOAS Navigation
+      description: Client discovers and traverses an API at runtime by following typed links from a root resource without hard-coding URI structures
+      apis:
+        - openproject
+        - reverb
+        - spring-data
+      personas:
+        - Hypermedia Client Developer
+      domains:
+        - Hypermedia API
+    - name: JSON:API Resource Fetching
+      description: Client fetches resources and includes relationships, applies filters, sorting, and pagination using the JSON:API specification
+      apis:
+        - patreon
+        - mbta
+        - teamtailor
+        - drupal
+      personas:
+        - Integration Developer
+      domains:
+        - Hypermedia API
+    - name: API Discovery via Catalog
+      description: Crawler or agent retrieves a host's APIs.json or RFC 9264 api-catalog document and follows links to OpenAPI specs, policies, and operational metadata
+      apis:
+        - apis-json
+      personas:
+        - API Discovery Engineer
+      domains:
+        - API Discovery
+    - name: Linked Data Publication
+      description: Publisher emits JSON-LD on resources and pages so search engines and aggregators can consume schema.org-typed data with shared semantics
+      apis:
+        - schema-org
+        - wikidata
+      personas:
+        - Linked Data Publisher
+      domains:
+        - Linked Data
+
+  personas:
+    - id: hypermedia-client-developer
+      name: Hypermedia Client Developer
+      description: Developers building clients that navigate APIs by following advertised link relations rather than hard-coded URIs
+      workflows:
+        - HATEOAS Navigation
+    - id: integration-developer
+      name: Integration Developer
+      description: Developers consuming standardized hypermedia APIs such as JSON:API services
+      workflows:
+        - JSON:API Resource Fetching
+    - id: api-discovery-engineer
+      name: API Discovery Engineer
+      description: Engineers building tooling that discovers APIs from catalogs and discovery documents
+      workflows:
+        - API Discovery via Catalog
+    - id: linked-data-publisher
+      name: Linked Data Publisher
+      description: Operators publishing structured, semantically tagged data using JSON-LD and schema.org
+      workflows:
+        - Linked Data Publication
+
+  domains:
+    - name: Hypermedia API
+      description: APIs whose responses include links, link relations, and embedded affordances so that clients can navigate at runtime
+    - name: API Discovery
+      description: Patterns and standards for publishing and consuming entry-point documents that point at an organization's APIs
+    - name: Linked Data
+      description: Use of JSON-LD, RDF, and shared vocabularies (schema.org, Hydra) to give APIs and data semantic meaning across the web
+
+crossReference:
+  - resource: resources
+    operations:
+      - get
+      - list
+      - follow-link
+    workflows:
+      - HATEOAS Navigation
+      - JSON:API Resource Fetching
+    personas:
+      - Hypermedia Client Developer
+      - Integration Developer
+  - resource: catalogs
+    operations:
+      - publish
+      - fetch
+      - crawl
+    workflows:
+      - API Discovery via Catalog
+    personas:
+      - API Discovery Engineer
+  - resource: formats
+    operations:
+      - serialize
+      - parse
+      - negotiate
+    workflows:
+      - HATEOAS Navigation
+      - Linked Data Publication
+    personas:
+      - Hypermedia Client Developer
+      - Linked Data Publisher

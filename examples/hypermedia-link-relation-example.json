@@ -1,0 +1,12 @@
+{
+  "rel": "next",
+  "href": "https://api.example.com/orders?page=4",
+  "anchor": "https://api.example.com/orders",
+  "templated": false,
+  "type": "application/hal+json",
+  "hreflang": "en",
+  "title": "Next page of orders",
+  "title_star": "UTF-8'en'Next%20page",
+  "media": "screen",
+  "profile": "https://example.com/profiles/order"
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/hypermedia/refs/heads/main/json-structure/hypermedia-hal-resource-structure.json",
+  "name": "HALResource",
+  "description": "A HAL (Hypertext Application Language) resource representation, including embedded link relations and embedded resources as defined by draft-kelly-json-hal.",
+  "type": "object",
+  "properties": {
+    "_links": {
+      "type": "map",
+      "description": "Map of link relation names to HAL Link Objects describing hyperlinks from this resource.",
+      "values": {
+        "type": "object",
+        "properties": {
+          "href": {
+            "type": "string",
+            "description": "Either a URI or a URI Template (RFC 6570) when 'templated' is true.",
+            "example": "/orders/523"
+          },
+          "templated": {
+            "type": "boolean",
+            "description": "Whether the href is a URI Template.",
+            "example": false
+          },
+          "type": {
+            "type": "string",
+            "description": "Media type expected when dereferencing the target.",
+            "example": "application/hal+json"
+          },
+          "deprecation": {
+            "type": "uri",
+            "description": "URL pointing to information about deprecation of this link.",
+            "example": "https://example.com/deprecation/orders"
+          },
+          "name": {
+            "type": "string",
+            "description": "Secondary key used to distinguish between Link Objects sharing the same relation type.",
+            "example": "primary"
+          },
+          "profile": {
+            "type": "uri",
+            "description": "URI identifying additional semantics of the target resource.",
+            "example": "https://example.com/profiles/order"
+          },
+          "title": {
+            "type": "string",
+            "description": "Human-readable label for the link.",
+            "example": "Next order"
+          },
+          "hreflang": {
+            "type": "string",
+            "description": "Indicates the language of the target resource.",
+            "example": "en"
+          }
+        },
+        "required": [
+          "href"
+        ]
+      }
+    },
+    "_embedded": {
+      "type": "map",
+      "description": "Map of link relation names to embedded HAL resources included inline with the parent.",
+      "values": {
+        "type": "object",
+        "description": "An embedded HAL resource keyed by link relation."
+      }
+    }
+  }
+}

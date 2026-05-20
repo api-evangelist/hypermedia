@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "hyp": "https://api-evangelist.github.io/hypermedia/schema/",
+    "schema": "https://schema.org/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "iana": "http://www.iana.org/assignments/relation/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "HALResource": "hyp:HALResource",
+    "LinkRelation": "hyp:LinkRelation",
+    "HypermediaFormat": "hyp:HypermediaFormat",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "title": "schema:name",
+
+    "_links": {
+      "@id": "hyp:links",
+      "@container": "@index"
+    },
+    "_embedded": {
+      "@id": "hyp:embedded",
+      "@container": "@index"
+    },
+    "href": {
+      "@id": "hydra:returns",
+      "@type": "@id"
+    },
+    "templated": {
+      "@id": "hydra:variableRepresentation",
+      "@type": "xsd:boolean"
+    },
+    "type": {
+      "@id": "dcterms:format",
+      "@type": "xsd:string"
+    },
+    "rel": {
+      "@id": "hyp:linkRelation",
+      "@type": "xsd:string"
+    },
+    "anchor": {
+      "@id": "hyp:anchor",
+      "@type": "@id"
+    },
+    "profile": {
+      "@id": "dcterms:conformsTo",
+      "@type": "@id"
+    },
+    "hreflang": {
+      "@id": "dcterms:language",
+      "@type": "xsd:string"
+    },
+    "deprecation": {
+      "@id": "hyp:deprecation",
+      "@type": "@id"
+    },
+    "media": {
+      "@id": "hyp:media",
+      "@type": "xsd:string"
+    },
+    "mediaType": {
+      "@id": "dcterms:format",
+      "@type": "xsd:string"
+    },
+    "operations": {
+      "@id": "hydra:supportedOperation",
+      "@container": "@set"
+    },
+    "method": {
+      "@id": "hydra:method",
+      "@type": "xsd:string"
+    },
+    "expects": {
+      "@id": "hydra:expects",
+      "@type": "@id"
+    },
+    "returns": {
+      "@id": "hydra:returns",
+      "@type": "@id"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_links": {
+    "self": { "href": "/orders/523" },
+    "next": { "href": "/orders/524" },
+    "prev": { "href": "/orders/522" },
+    "find": { "href": "/orders{?id}", "templated": true },
+    "ea:basket": { "href": "/baskets/97213" },
+    "ea:customer": { "href": "/customers/7809", "title": "Acme Corp" }
+  },
+  "currency": "USD",
+  "status": "shipped",
+  "total": 30.0,
+  "_embedded": {
+    "ea:order-items": [
+      {
+        "_links": { "self": { "href": "/orders/523/items/1" } },
+        "sku": "WIDGET-001",
+        "quantity": 2,
+        "unit_price": 10.0
+      },
+      {
+        "_links": { "self": { "href": "/orders/523/items/2" } },
+        "sku": "WIDGET-002",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ]
+  }
+}

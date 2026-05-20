@@ -1,0 +1,137 @@
+aid: hypermedia
+name: Hypermedia
+description: >-
+  An index and topic collection covering hypermedia-driven APIs, HATEOAS, and the formats, link relations,
+  and specifications that make APIs discoverable and self-describing. Hypermedia APIs use links, link
+  relations, and embedded controls inside their responses so that clients can navigate an API graph at
+  runtime rather than relying on hard-coded URI structures. This collection covers hypermedia formats
+  including HAL, JSON:API, Siren, Collection+JSON, JSON-LD, Hydra, ALPS, UBER, Mason, and Verbose; the
+  standards bodies that define web linking (IETF, W3C) including RFC 5988/8288 Web Linking and RFC 9264
+  api-catalog; provider APIs that demonstrably ship HATEOAS responses such as OpenProject, Reverb, MBTA,
+  Patreon, Teamtailor, and Drupal JSON:API; and the spec libraries and frameworks (Spring HATEOAS,
+  Spring Data REST, Apicurio) that implement hypermedia patterns.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Hypermedia
+- HATEOAS
+- HAL
+- JSON:API
+- Link Headers
+- Link Relations
+- Siren
+- Collection+JSON
+- Linked Data
+- JSON-LD
+- Hydra
+- ALPS
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/hypermedia/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Apicurio
+  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/apis.yml
+- name: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/apis-json/refs/heads/main/apis.yml
+- name: Design Patterns
+  url: https://raw.githubusercontent.com/api-evangelist/design-patterns/refs/heads/main/apis.yml
+- name: Drupal
+  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/apis.yml
+- name: MBTA
+  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/apis.yml
+- name: OpenProject
+  url: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/apis.yml
+- name: Patreon
+  url: https://raw.githubusercontent.com/api-evangelist/patreon/refs/heads/main/apis.yml
+- name: RDF
+  url: https://raw.githubusercontent.com/api-evangelist/rdf/refs/heads/main/apis.yml
+- name: REST
+  url: https://raw.githubusercontent.com/api-evangelist/rest/refs/heads/main/apis.yml
+- name: RESTful
+  url: https://raw.githubusercontent.com/api-evangelist/restful/refs/heads/main/apis.yml
+- name: RESTful APIs
+  url: https://raw.githubusercontent.com/api-evangelist/restful-apis/refs/heads/main/apis.yml
+- name: RESTful Services
+  url: https://raw.githubusercontent.com/api-evangelist/restful-services/refs/heads/main/apis.yml
+- name: Reverb
+  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/apis.yml
+- name: Schema.org
+  url: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/apis.yml
+- name: SPARQL
+  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/apis.yml
+- name: Spring Boot
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/apis.yml
+- name: Spring Boot 3
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/apis.yml
+- name: Spring Data
+  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/apis.yml
+- name: Spring Framework
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/apis.yml
+- name: Teamtailor
+  url: https://raw.githubusercontent.com/api-evangelist/teamtailor/refs/heads/main/apis.yml
+- name: Technology Standards
+  url: https://raw.githubusercontent.com/api-evangelist/technology-standards/refs/heads/main/apis.yml
+- name: W3C
+  url: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/apis.yml
+- name: Web Standards
+  url: https://raw.githubusercontent.com/api-evangelist/web-standards/refs/heads/main/apis.yml
+- name: Wikidata
+  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: HATEOAS Navigation
+    description: Hypermedia APIs include in-response links and link relations so clients can discover available state transitions at runtime rather than hard-coding URI templates against documentation.
+  - name: Standardized Hypermedia Formats
+    description: Established formats such as HAL, JSON:API, Siren, Collection+JSON, Hydra, ALPS, UBER, Mason, and Verbose provide structured ways to embed links, actions, and metadata inside API responses.
+  - name: Web Linking via Link Headers
+    description: RFC 5988 and RFC 8288 define the HTTP Link header and the Web Linking model, including the IANA Link Relations registry that gives shared meaning to rel values across APIs.
+  - name: Linked Data and Semantic Hypermedia
+    description: JSON-LD, Hydra, schema.org, and the broader RDF stack extend hypermedia with shared vocabularies, enabling semantic interoperability between APIs, search engines, and knowledge graphs.
+  - name: Self-Describing API Catalogs
+    description: RFC 9264 api-catalog, APIs.json, and similar discovery documents act as hypermedia entry points that link a host to its APIs, OpenAPI specs, terms of service, and policies.
+  - name: Hypermedia Frameworks and Libraries
+    description: Frameworks like Spring HATEOAS, Spring Data REST, and Apicurio provide implementation support for emitting HAL, HAL-FORMS, JSON:API, and Collection+JSON responses from server code.
+- type: UseCases
+  data:
+  - name: Evolvable Long-Lived APIs
+    description: HATEOAS-based APIs allow servers to evolve URI structures, add new affordances, and deprecate endpoints over time while clients continue to navigate by link relations rather than hard-coded paths.
+  - name: Domain-Driven Project Management APIs
+    description: OpenProject exposes work packages, projects, users, and attachments through a HAL+JSON hypermedia API where every resource embeds links to related resources and available actions.
+  - name: Standardized CRUD via JSON:API
+    description: Patreon, MBTA, Teamtailor, and Drupal expose their resources via JSON:API, providing a consistent specification for fetching, including related resources, filtering, sorting, and pagination across very different domains.
+  - name: Semantic Search and Structured Data
+    description: Schema.org and JSON-LD allow APIs and websites to publish machine-readable Linked Data that search engines, agents, and aggregators can consume without bespoke parsers.
+  - name: API Discovery and Catalogs
+    description: APIs.json and RFC 9264 api-catalog documents act as hypermedia entry points that let crawlers, tooling, and AI agents discover an organization's APIs, specifications, and policies from a single well-known URL.
+  - name: Hypermedia-Driven Web Apps
+    description: Approaches like htmx, hyperview, and Hypermedia Systems return HTML fragments and hypermedia controls directly to the client, simplifying applications by treating HTML itself as the hypermedia format.
+- type: Integrations
+  data:
+  - name: HAL (Hypertext Application Language)
+    description: A minimal hypermedia format for JSON and XML that embeds _links and _embedded resources, widely used by APIs such as OpenProject, Reverb, and Spring Data REST.
+  - name: JSON:API
+    description: A specification for building APIs in JSON that standardizes resource objects, relationships, includes, filtering, sorting, and pagination, used by Patreon, MBTA, Teamtailor, and Drupal.
+  - name: Siren
+    description: A hypermedia specification for representing entities, their classes, properties, actions, and links, designed for rich, action-oriented hypermedia clients.
+  - name: Collection+JSON
+    description: A JSON-based hypermedia format from Mike Amundsen for representing collections of items with queries and templates for write operations.
+  - name: JSON-LD and Hydra
+    description: JSON-LD provides a JSON syntax for Linked Data; Hydra extends it with a vocabulary for describing hypermedia-driven Web APIs including operations, classes, and supported properties.
+  - name: ALPS (Application-Level Profile Semantics)
+    description: A profile description format for documenting semantic descriptors and state transitions independent of any single media type.
+  - name: Web Linking (RFC 5988 / RFC 8288)
+    description: IETF specifications defining the HTTP Link header and a model for typed web links, along with the IANA Link Relations registry shared across hypermedia formats.
+  - name: Spring HATEOAS
+    description: A library for building hypermedia-driven REST APIs in Spring, supporting HAL, HAL-FORMS, Collection+JSON, and UBER, with first-class integration into Spring Data REST.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com

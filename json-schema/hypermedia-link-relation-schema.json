@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/hypermedia/refs/heads/main/json-schema/hypermedia-link-relation-schema.json",
+  "title": "LinkRelation",
+  "description": "A typed web link as described by RFC 8288 Web Linking, including IANA-registered link relation types and extension relations identified by URI.",
+  "type": "object",
+  "properties": {
+    "rel": {
+      "type": "string",
+      "description": "Link relation type. Either an IANA-registered relation name (e.g. 'self', 'next', 'prev', 'first', 'last', 'up', 'related', 'describedby', 'collection', 'item', 'edit', 'alternate', 'author', 'license', 'service-doc', 'service-desc') or an extension relation expressed as an absolute URI.",
+      "example": "next"
+    },
+    "href": {
+      "type": "string",
+      "description": "Target IRI of the link. May be a URI Template per RFC 6570 when 'templated' is true.",
+      "example": "https://api.example.com/orders?page=4"
+    },
+    "anchor": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional anchor IRI overriding the context of the link.",
+      "example": "https://api.example.com/orders"
+    },
+    "templated": {
+      "type": "boolean",
+      "description": "Whether 'href' is a URI Template.",
+      "example": false
+    },
+    "type": {
+      "type": "string",
+      "description": "Hint at the media type of the target resource.",
+      "example": "application/hal+json"
+    },
+    "hreflang": {
+      "type": "string",
+      "description": "Language hint for the target resource.",
+      "example": "en"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable label for the link.",
+      "example": "Next page of orders"
+    },
+    "title_star": {
+      "type": "string",
+      "description": "Internationalised title, RFC 8187-encoded, surfaced as 'title*' on the HTTP Link header.",
+      "example": "UTF-8'en'Next%20page"
+    },
+    "media": {
+      "type": "string",
+      "description": "Intended destination medium or media for the link target.",
+      "example": "screen"
+    },
+    "profile": {
+      "type": "string",
+      "format": "uri",
+      "description": "URI identifying additional semantics applied to the target representation.",
+      "example": "https://example.com/profiles/order"
+    },
+    "deprecation": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL providing deprecation information about this link relation.",
+      "example": "https://example.com/deprecation/orders-next"
+    }
+  },
+  "required": ["rel", "href"]
+}
