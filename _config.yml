@@ -1,0 +1,26 @@
+title: Hypermedia
+description: An index and topic collection covering hypermedia-driven APIs, HATEOAS,
+  and the formats, link relations, and specifications that make APIs discoverable
+  and self-describing. Hypermedia APIs use links, link relations, and embedded controls
+  inside their responses so that clients can navigate an API graph at runtime rather
+  than relying on hard-coded URI structures. This collection covers hypermedia formats
+  including HAL, JSON:API, Siren, Collection+JSON, JSON-LD, Hydra, ALPS, UBER, Mason,
+  and Verbose; the standards bodies that define web linking (IETF, W3C) including
+  RFC 5988/8288 Web Linking and RFC 9264 api-catalog; provider APIs that demonstrably
+  ship HATEOAS responses such as OpenProject, Reverb, MBTA, Patreon, Teamtailor, and
+  Drupal JSON:API; and the spec libraries and frameworks (Spring HATEOAS, Spring Data
+  REST, Apicurio) that implement hypermedia patterns.
+url: https://hypermedia.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary
