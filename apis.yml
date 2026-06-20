@@ -11,7 +11,7 @@ description: >-
   Patreon, Teamtailor, and Drupal JSON:API; and the spec libraries and frameworks (Spring HATEOAS,
   Spring Data REST, Apicurio) that implement hypermedia patterns.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Hypermedia
 - HATEOAS
