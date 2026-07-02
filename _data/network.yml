@@ -1,0 +1,31 @@
+related:
+- name: Migration
+  url: https://migration.apievangelist.com
+  icon: https://migration.apievangelist.com/icon.png
+  description: An index and topic collection covering data migration, cloud migration, database migration,
+    and API migration platforms and services. Migration platforms help organizations move…
+- name: Backups
+  url: https://backups.apievangelist.com
+  icon: https://backups.apievangelist.com/icon.png
+  description: An index and topic collection covering backup, disaster recovery, and data protection APIs.
+    Backup APIs enable applications and platforms to schedule, orchestrate, and verify the…
+- name: Visualization
+  url: https://visualization.apievangelist.com
+  icon: https://visualization.apievangelist.com/icon.png
+  description: An index and topic collection covering data visualization, charts, dashboards, business
+    intelligence (BI), and reporting APIs. Data visualization platforms turn raw data into…
+- name: Privacy
+  url: https://privacy.apievangelist.com
+  icon: https://privacy.apievangelist.com/icon.png
+  description: An index and topic collection covering privacy management, consent management, data subject
+    rights, data classification, and PII detection APIs. Privacy platforms help…
+- name: Integrations
+  url: https://integrations.apievangelist.com
+  icon: https://integrations.apievangelist.com/icon.png
+  description: An index and topic collection covering the broad integration tooling market, including
+    iPaaS and embedded-iPaaS platforms, workflow automation tools, unified API providers, ETL…
+- name: Scraping
+  url: https://scraping.apievangelist.com
+  icon: https://scraping.apievangelist.com/icon.png
+  description: An index and topic collection covering web scraping platforms, proxy networks, SERP APIs,
+    browser-based extraction services, and data collection APIs. Scraping platforms turn the…
