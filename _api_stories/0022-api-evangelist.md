@@ -2,7 +2,7 @@
 title: What Is Your Beef With JSON Schema?
 link: http://apievangelist.com/2026/02/09/what-is-your-beef-with-json-schema/
 published: '2026-02-09'
-provider: programmableweb
-repo: https://github.com/api-evangelist/programmableweb
+provider: api-evangelist
+repo: https://github.com/api-evangelist/api-evangelist
 domain: apievangelist.com
 ---
