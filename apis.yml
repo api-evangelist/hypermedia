@@ -1,5 +1,6 @@
 aid: hypermedia
 name: Hypermedia
+kind: topic
 description: >-
   An index and topic collection covering hypermedia-driven APIs, HATEOAS, and the formats, link relations,
   and specifications that make APIs discoverable and self-describing. Hypermedia APIs use links, link
