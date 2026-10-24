@@ -1,6 +1,6 @@
 ---
-title: Collection Rights Statement Builder MCP
-link: https://vinkius.com/en/ai-agent-connect/collection-rights-statement-builder
+title: Collection Reproduction Request Engine MCP
+link: https://vinkius.com/en/ai-agent-connect/collection-reproduction-request-engine
 published: '2026-10-12'
 provider: vinkius-com
 repo: https://github.com/api-evangelist/vinkius-com

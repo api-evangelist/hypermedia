@@ -1,6 +1,6 @@
 ---
-title: Collection Reading Room Visit Planner MCP
-link: https://vinkius.com/en/ai-agent-connect/collection-reading-room-visit-planner
+title: Collection Publication Permission Workflow MCP
+link: https://vinkius.com/en/ai-agent-connect/collection-publication-permission-workflow
 published: '2026-10-12'
 provider: vinkius-com
 repo: https://github.com/api-evangelist/vinkius-com
