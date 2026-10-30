@@ -1,114 +1,97 @@
-# Hypermedia (hypermedia)
-An index and topic collection covering hypermedia-driven APIs, HATEOAS, and the formats, link relations, and specifications that make APIs discoverable and self-describing. Hypermedia APIs use links, link relations, and embedded controls inside their responses so that clients can navigate an API graph at runtime rather than relying on hard-coded URI structures. This collection covers hypermedia formats including HAL, JSON:API, Siren, Collection+JSON, JSON-LD, Hydra, ALPS, UBER, Mason, and Verbose; the standards bodies that define web linking (IETF, W3C) including RFC 5988/8288 Web Linking and RFC 9264 api-catalog; provider APIs that demonstrably ship HATEOAS responses; and the spec libraries and frameworks that implement hypermedia patterns.
+# Hypermedia
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
 
-## Tags:
+An index and topic collection covering hypermedia-driven APIs, HATEOAS, and the formats, link relations, and specifications that make APIs discoverable and self-describing. Hypermedia APIs use links, link relations, and embedded controls inside their responses so that clients can navigate an API graph at runtime rather than relying on hard-coded URI structures. This collection covers hypermedia formats including HAL, JSON:API, Siren, Collection+JSON, JSON-LD, Hydra, ALPS, UBER, Mason, and Verbose; the standards bodies that define web linking (IETF, W3C) including RFC 5988/8288 Web Linking and RFC 9264 api-catalog; provider APIs that demonstrably ship HATEOAS responses such as OpenProject, Reverb, MBTA, Patreon, Teamtailor, and Drupal JSON:API; and the spec libraries and frameworks (Spring HATEOAS, Spring Data REST, Apicurio) that implement hypermedia patterns.
 
- - Hypermedia, HATEOAS, HAL, JSON:API, Link Headers, Link Relations, Siren, Collection+JSON, Linked Data, JSON-LD, Hydra, ALPS
+**Areas:** Hypermedia · HATEOAS · HAL · JSON:API · Link Headers · Link Relations · Siren · Collection+JSON · Linked Data · JSON-LD · Hydra · ALPS
 
-## Timestamps
+## Hypermedia on APIs.io
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Everything profiled for Hypermedia is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hypermedia/](https://apis.io/providers/hypermedia/)** — or go straight to one of the APIs or properties below.
 
-## Common Properties
+## Where to find this API
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - HAL Resource Schema](https://raw.githubusercontent.com/api-evangelist/hypermedia/refs/heads/main/json-schema/hypermedia-hal-resource-schema.json)
-- [JSONSchema - Link Relation Schema](https://raw.githubusercontent.com/api-evangelist/hypermedia/refs/heads/main/json-schema/hypermedia-link-relation-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/hypermedia/refs/heads/main/json-ld/hypermedia-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/hypermedia/refs/heads/main/vocabulary/hypermedia-vocabulary.yaml)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Features
+- [GitHub](https://github.com/api-evangelist)
 
-| Name | Description |
-|------|-------------|
-| HATEOAS Navigation | Hypermedia APIs include in-response links and link relations so clients can discover available state transitions at runtime rather than hard-coding URI templates against documentation. |
-| Standardized Hypermedia Formats | Established formats such as HAL, JSON:API, Siren, Collection+JSON, Hydra, ALPS, UBER, Mason, and Verbose provide structured ways to embed links, actions, and metadata inside API responses. |
-| Web Linking via Link Headers | RFC 5988 and RFC 8288 define the HTTP Link header and the Web Linking model, including the IANA Link Relations registry that gives shared meaning to rel values across APIs. |
-| Linked Data and Semantic Hypermedia | JSON-LD, Hydra, schema.org, and the broader RDF stack extend hypermedia with shared vocabularies, enabling semantic interoperability between APIs, search engines, and knowledge graphs. |
-| Self-Describing API Catalogs | RFC 9264 api-catalog, APIs.json, and similar discovery documents act as hypermedia entry points that link a host to its APIs, OpenAPI specs, terms of service, and policies. |
-| Hypermedia Frameworks and Libraries | Frameworks like Spring HATEOAS, Spring Data REST, and Apicurio provide implementation support for emitting HAL, HAL-FORMS, JSON:API, and Collection+JSON responses from server code. |
+## API Evangelist rating
 
-## Use Cases
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| Evolvable Long-Lived APIs | HATEOAS-based APIs allow servers to evolve URI structures and add new affordances while clients continue to navigate by link relations rather than hard-coded paths. |
-| Domain-Driven Project Management APIs | OpenProject exposes work packages, projects, users, and attachments through a HAL+JSON hypermedia API where every resource embeds links to related resources and available actions. |
-| Standardized CRUD via JSON:API | Patreon, MBTA, Teamtailor, and Drupal expose their resources via JSON:API, providing a consistent specification for fetching, including related resources, filtering, sorting, and pagination. |
-| Semantic Search and Structured Data | Schema.org and JSON-LD allow APIs and websites to publish machine-readable Linked Data that search engines, agents, and aggregators can consume without bespoke parsers. |
-| API Discovery and Catalogs | APIs.json and RFC 9264 api-catalog documents act as hypermedia entry points that let crawlers, tooling, and AI agents discover an organization's APIs, specifications, and policies. |
-| Hypermedia-Driven Web Apps | Approaches like htmx, hyperview, and Hypermedia Systems return HTML fragments and hypermedia controls directly to the client, treating HTML itself as the hypermedia format. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Integrations
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| HAL (Hypertext Application Language) | A minimal hypermedia format for JSON and XML that embeds _links and _embedded resources, widely used by APIs such as OpenProject, Reverb, and Spring Data REST. |
-| JSON:API | A specification for building APIs in JSON that standardizes resource objects, relationships, includes, filtering, sorting, and pagination, used by Patreon, MBTA, Teamtailor, and Drupal. |
-| Siren | A hypermedia specification for representing entities, their classes, properties, actions, and links, designed for rich, action-oriented hypermedia clients. |
-| Collection+JSON | A JSON-based hypermedia format from Mike Amundsen for representing collections of items with queries and templates for write operations. |
-| JSON-LD and Hydra | JSON-LD provides a JSON syntax for Linked Data; Hydra extends it with a vocabulary for describing hypermedia-driven Web APIs including operations, classes, and supported properties. |
-| ALPS (Application-Level Profile Semantics) | A profile description format for documenting semantic descriptors and state transitions independent of any single media type. |
-| Web Linking (RFC 5988 / RFC 8288) | IETF specifications defining the HTTP Link header and a model for typed web links, along with the IANA Link Relations registry shared across hypermedia formats. |
-| Spring HATEOAS | A library for building hypermedia-driven REST APIs in Spring, supporting HAL, HAL-FORMS, Collection+JSON, and UBER, with first-class integration into Spring Data REST. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Artifacts
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hypermedia: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-Machine-readable API specifications organized by format.
+## Open an issue
 
-### JSON Schema
-
-- [HAL Resource Schema](json-schema/hypermedia-hal-resource-schema.json)
-- [Link Relation Schema](json-schema/hypermedia-link-relation-schema.json)
-
-### JSON Structure
-
-- [HAL Resource Structure](json-structure/hypermedia-hal-resource-structure.json)
-- [Link Relation Structure](json-structure/hypermedia-link-relation-structure.json)
-
-### JSON-LD
-
-- [Hypermedia Context](json-ld/hypermedia-context.jsonld)
-
-## Vocabulary
-
-- [Hypermedia Vocabulary](vocabulary/hypermedia-vocabulary.yaml) — Unified taxonomy mapping hypermedia formats, link relations, resources, actions, workflows, and personas across HATEOAS APIs and hypermedia frameworks
-
-## Network
-
-This index references the following hypermedia, HATEOAS, and link-relation repositories:
-
-- [Apicurio](https://github.com/api-evangelist/apicurio)
-- [APIs.json](https://github.com/api-evangelist/apis-json)
-- [Design Patterns](https://github.com/api-evangelist/design-patterns)
-- [Drupal](https://github.com/api-evangelist/drupal)
-- [MBTA](https://github.com/api-evangelist/mbta)
-- [OpenProject](https://github.com/api-evangelist/openproject)
-- [Patreon](https://github.com/api-evangelist/patreon)
-- [RDF](https://github.com/api-evangelist/rdf)
-- [REST](https://github.com/api-evangelist/rest)
-- [RESTful](https://github.com/api-evangelist/restful)
-- [RESTful APIs](https://github.com/api-evangelist/restful-apis)
-- [RESTful Services](https://github.com/api-evangelist/restful-services)
-- [Reverb](https://github.com/api-evangelist/reverb)
-- [Schema.org](https://github.com/api-evangelist/schema-org)
-- [SPARQL](https://github.com/api-evangelist/sparql)
-- [Spring Boot](https://github.com/api-evangelist/spring-boot)
-- [Spring Boot 3](https://github.com/api-evangelist/spring-boot-3)
-- [Spring Data](https://github.com/api-evangelist/spring-data)
-- [Spring Framework](https://github.com/api-evangelist/spring)
-- [Teamtailor](https://github.com/api-evangelist/teamtailor)
-- [Technology Standards](https://github.com/api-evangelist/technology-standards)
-- [W3C](https://github.com/api-evangelist/w3c)
-- [Web Standards](https://github.com/api-evangelist/web-standards)
-- [Wikidata](https://github.com/api-evangelist/wikidata)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hypermedia/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
