@@ -1,6 +1,6 @@
 ---
-title: Collection Reproduction Request Engine MCP
-link: https://vinkius.com/en/ai-agent-connect/collection-reproduction-request-engine
+title: Collection Handling Instructions Sheet MCP
+link: https://vinkius.com/en/ai-agent-connect/collection-handling-instructions-sheet
 published: '2026-10-12'
 provider: vinkius-com
 repo: https://github.com/api-evangelist/vinkius-com
