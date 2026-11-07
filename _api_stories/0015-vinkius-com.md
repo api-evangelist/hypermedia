@@ -1,6 +1,6 @@
 ---
-title: Collection Deaccession Decision Brief MCP
-link: https://vinkius.com/en/ai-agent-connect/collection-deaccession-decision-brief
+title: Collection Reproduction Request Engine MCP
+link: https://vinkius.com/en/ai-agent-connect/collection-reproduction-request-engine
 published: '2026-10-12'
 provider: vinkius-com
 repo: https://github.com/api-evangelist/vinkius-com

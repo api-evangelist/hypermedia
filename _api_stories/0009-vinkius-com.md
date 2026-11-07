@@ -1,6 +1,6 @@
 ---
-title: Restricted Collection Access Planner MCP
-link: https://vinkius.com/en/ai-agent-connect/restricted-collection-access-planner
+title: Collection Storage Change Approval MCP
+link: https://vinkius.com/en/ai-agent-connect/collection-storage-change-approval
 published: '2026-10-12'
 provider: vinkius-com
 repo: https://github.com/api-evangelist/vinkius-com

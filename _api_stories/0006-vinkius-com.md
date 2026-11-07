@@ -1,6 +1,6 @@
 ---
-title: Collection Storage Change Approval MCP
-link: https://vinkius.com/en/ai-agent-connect/collection-storage-change-approval
+title: Collection Publication Permission Workflow MCP
+link: https://vinkius.com/en/ai-agent-connect/collection-publication-permission-workflow
 published: '2026-10-12'
 provider: vinkius-com
 repo: https://github.com/api-evangelist/vinkius-com

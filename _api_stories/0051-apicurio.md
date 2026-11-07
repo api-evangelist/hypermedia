@@ -1,7 +1,7 @@
 ---
-title: Apicurio Registry - JSON Schema dereference
-link: https://www.apicur.io/blog/2024/05/14/registry-dereference
-published: '2024-05-14'
+title: Apicurio Registry - JSON Schema and OpenAPI dereference
+link: https://www.apicur.io/blog/2025/11/25/registry-dereference-v3
+published: '2025-11-25'
 provider: apicurio
 repo: https://github.com/api-evangelist/apicurio
 domain: www.apicur.io
